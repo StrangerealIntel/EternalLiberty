@@ -2683,6 +2683,10 @@
                                    {
                                        "entity":  "Symantec",
                                        "name":  "Cloudy Omega"
+                                   },
+                                   {
+                                       "entity":  "AhnLab",
+                                       "name":  "Emdivi"
                                    }
                                ]
                  },
@@ -9497,6 +9501,38 @@
                                    {
                                        "entity":  "Secureworks",
                                        "name":  "Bronze Spiral"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Polonium",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "Lebanon",
+                     "alias":  [
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Polonium"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Shadow Force",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "China",
+                     "alias":  [
+                                   {
+                                       "entity":  "Trend Micro",
+                                       "name":  "Shadow Force"
+                                   },
+                                   {
+                                       "entity":  "AhnLab",
+                                       "name":  "Shadow Force"
+                                   },
+                                   {
+                                       "entity":  "Sentinel one",
+                                       "name":  "WIP19"
                                    }
                                ]
                  }
