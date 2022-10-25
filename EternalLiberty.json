@@ -3719,6 +3719,10 @@
                                        "name":  "ScorchedEpoch"
                                    },
                                    {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0133"
+                                   },
+                                   {
                                        "entity":  "IBM",
                                        "name":  "Hive0112"
                                    },
@@ -4549,6 +4553,10 @@
                                    {
                                        "entity":  "Kaspersky",
                                        "name":  "ViceLeaker"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0198"
                                    }
                                ]
                  },
@@ -7014,6 +7022,10 @@
                      "country":  "Russia",
                      "alias":  [
                                    {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Alpha Spider"
+                                   },
+                                   {
                                        "entity":  "Secureworks",
                                        "name":  "Gold Blazer"
                                    },
@@ -7966,18 +7978,6 @@
                                    {
                                        "entity":  "PWC",
                                        "name":  "White Dev 95"
-                                   }
-                               ]
-                 },
-                 {
-                     "official_name":  "Vice Leaker",
-                     "confidence":  "Mid",
-                     "type":  "Organized Crime",
-                     "country":  "Iran",
-                     "alias":  [
-                                   {
-                                       "entity":  "Microsoft",
-                                       "name":  "DEV-0198"
                                    }
                                ]
                  },
@@ -8941,10 +8941,14 @@
                  },
                  {
                      "official_name":  "Earth Berberoka",
-                     "confidence":  "Mid",
+                     "confidence":  "High",
                      "type":  "APT",
                      "country":  "China",
                      "alias":  [
+                                   {
+                                       "entity":  "Kaspersky",
+                                       "name":  "DiceyF"
+                                   },
                                    {
                                        "entity":  "Trend Micro",
                                        "name":  "Earth Berberoka"
@@ -9533,6 +9537,78 @@
                                    {
                                        "entity":  "Sentinel one",
                                        "name":  "WIP19"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "DEV-0960",
+                     "confidence":  "Low",
+                     "type":  "Unknown",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0960"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "HomeLand Justice",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "Iran",
+                     "alias":  [
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Banished Kitten"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0842"
+                                   },
+                                   {
+                                       "entity":  "US Gov",
+                                       "name":  "HomeLand Justice"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "DEV-0861",
+                     "confidence":  "Low",
+                     "type":  "Unknown",
+                     "country":  "Iran",
+                     "alias":  [
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0861"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "IntrudingDivisor",
+                     "confidence":  "High",
+                     "type":  "APT",
+                     "country":  "Iran",
+                     "alias":  [
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0166"
+                                   },
+                                   {
+                                       "entity":  "Palo Alto",
+                                       "name":  "IntrudingDivisor"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Vice Society",
+                     "confidence":  "High",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0832"
                                    }
                                ]
                  }
