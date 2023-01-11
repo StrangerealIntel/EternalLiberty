@@ -4,7 +4,7 @@
                    "Arkbird_SOLG",
                    "BushidoToken"
                ],
-    "version":  "1.0",
+    "version":  "1.1",
     "data":  [
                  {
                      "official_name":  "FIN1",
@@ -217,12 +217,40 @@
                                        "name":  "UNC902/FIN11/Temp.Warlock"
                                    },
                                    {
+                                       "entity":  "Proofpoint",
+                                       "name":  "TA505"
+                                   },
+                                   {
                                        "entity":  "CrowdStrike",
                                        "name":  "Graceful Spider"
                                    },
                                    {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0950/Chimborazo"
+                                   },
+                                   {
+                                       "entity":  "MITRE",
+                                       "name":  "G0092"
+                                   },
+                                   {
+                                       "entity":  "IBM",
+                                       "name":  "Hive0065"
+                                   },
+                                   {
                                        "entity":  "Secureworks",
-                                       "name":  "Gold Evergreen"
+                                       "name":  "Gold Tahoe"
+                                   },
+                                   {
+                                       "entity":  "PWC",
+                                       "name":  "White Austaras"
+                                   },
+                                   {
+                                       "entity":  "Thales",
+                                       "name":  "ATK103"
+                                   },
+                                   {
+                                       "entity":  "ThreatRecon",
+                                       "name":  "SectorJ04"
                                    }
                                ]
                  },
@@ -234,11 +262,31 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "FIN12"
+                                       "name":  "FIN12/TEMP.MixMaster/UNC1878"
                                    },
                                    {
                                        "entity":  "CrowdStrike",
                                        "name":  "Wizard Spider"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0193"
+                                   },
+                                   {
+                                       "entity":  "MITRE",
+                                       "name":  "G0102"
+                                   },
+                                   {
+                                       "entity":  "IBM",
+                                       "name":  "ITG23"
+                                   },
+                                   {
+                                       "entity":  "Secureworks",
+                                       "name":  "Gold Blackburn"
+                                   },
+                                   {
+                                       "entity":  "PWC",
+                                       "name":  "White Magician"
                                    }
                                ]
                  },
@@ -298,7 +346,7 @@
                      "official_name":  "LookBack",
                      "confidence":  "High",
                      "type":  "APT",
-                     "country":  "Unknown",
+                     "country":  "China",
                      "alias":  [
                                    {
                                        "entity":  "Proofpoint",
@@ -307,6 +355,26 @@
                                    {
                                        "entity":  "Dragos",
                                        "name":  "Talonite"
+                                   },
+                                   {
+                                       "entity":  "Symantec",
+                                       "name":  "Witchetty"
+                                   },
+                                   {
+                                       "entity":  "ESET",
+                                       "name":  "LookingFrog"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "FlowingFrog",
+                     "confidence":  "High",
+                     "type":  "APT",
+                     "country":  "China",
+                     "alias":  [
+                                   {
+                                       "entity":  "ESET",
+                                       "name":  "FlowingFrog"
                                    }
                                ]
                  },
@@ -319,6 +387,14 @@
                                    {
                                        "entity":  "Proofpoint",
                                        "name":  "TA413"
+                                   },
+                                   {
+                                       "entity":  "PWC",
+                                       "name":  "White Dev 9"
+                                   },
+                                   {
+                                       "entity":  "Symantec",
+                                       "name":  " Lucky Cat"
                                    }
                                ]
                  },
@@ -361,6 +437,10 @@
                                        "name":  "TA445"
                                    },
                                    {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0257"
+                                   },
+                                   {
                                        "entity":  "Secureworks",
                                        "name":  "Moonscape"
                                    },
@@ -391,55 +471,19 @@
                                ]
                  },
                  {
-                     "official_name":  "TA505",
+                     "official_name":  "The Business Club",
                      "confidence":  "High",
                      "type":  "Organized Crime",
-                     "country":  "Russia",
+                     "country":  "Worldwide",
                      "alias":  [
                                    {
-                                       "entity":  "Mandiant/FireEye",
-                                       "name":  "Temp.Warlock"
-                                   },
-                                   {
-                                       "entity":  "Proofpoint",
-                                       "name":  "TA505"
-                                   },
-                                   {
-                                       "entity":  "CrowdStrike",
-                                       "name":  "Graceful Spider"
-                                   },
-                                   {
-                                       "entity":  "Microsoft",
-                                       "name":  "DEV-0206/Chimborazo"
-                                   },
-                                   {
-                                       "entity":  "MITRE",
-                                       "name":  "G0092"
-                                   },
-                                   {
-                                       "entity":  "IBM",
-                                       "name":  "Hive0065"
-                                   },
-                                   {
                                        "entity":  "Secureworks",
-                                       "name":  "Gold Tahoe"
-                                   },
-                                   {
-                                       "entity":  "PWC",
-                                       "name":  "White Austaras"
-                                   },
-                                   {
-                                       "entity":  "Thales",
-                                       "name":  "ATK103"
-                                   },
-                                   {
-                                       "entity":  "ThreatRecon",
-                                       "name":  "SectorJ04"
+                                       "name":  "Gold Evergreen"
                                    }
                                ]
                  },
                  {
-                     "official_name":  "Indrik Spider",
+                     "official_name":  "Evil Corp",
                      "confidence":  "High",
                      "type":  "Organized Crime",
                      "country":  "Russia",
@@ -677,6 +721,10 @@
                                        "name":  "TA569"
                                    },
                                    {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0206"
+                                   },
+                                   {
                                        "entity":  "Secureworks",
                                        "name":  "Gold Prelude"
                                    }
@@ -807,6 +855,10 @@
                                    {
                                        "entity":  "Symantec",
                                        "name":  "Comment Crew"
+                                   },
+                                   {
+                                       "entity":  "Trend Micro",
+                                       "name":  "Siesta"
                                    },
                                    {
                                        "entity":  "Thalos",
@@ -1147,6 +1199,10 @@
                                    {
                                        "entity":  "CrowdStrike",
                                        "name":  "Vixen Panda "
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Nickel"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -1753,6 +1809,10 @@
                                        "name":  "Ocean Buffalo"
                                    },
                                    {
+                                       "entity":  "Microsoft",
+                                       "name":  "Bismuth"
+                                   },
+                                   {
                                        "entity":  "MITRE",
                                        "name":  "G0050"
                                    },
@@ -1981,6 +2041,10 @@
                                        "name":  "Newscaster"
                                    },
                                    {
+                                       "entity":  "BAE Systems",
+                                       "name":  "Ali Baba"
+                                   },
+                                   {
                                        "entity":  "Sentinel one",
                                        "name":  "TunnelVision"
                                    }
@@ -2054,7 +2118,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Thallium"
+                                       "name":  "Thallium/Osmium"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -2119,6 +2183,10 @@
                                    {
                                        "entity":  "CrowdStrike",
                                        "name":  "Stardust Chollima"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Copernicium"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -2275,7 +2343,7 @@
                                ]
                  },
                  {
-                     "official_name":  "APT41",
+                     "official_name":  "Amoeba",
                      "confidence":  "High",
                      "type":  "APT",
                      "country":  "China",
@@ -2320,13 +2388,17 @@
                  },
                  {
                      "official_name":  "APT42",
-                     "confidence":  "Low",
+                     "confidence":  "Mid",
                      "type":  "APT",
                      "country":  "Iran",
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
                                        "name":  "APT42"
+                                   },
+                                   {
+                                       "entity":  "Recorded Future",
+                                       "name":  "TAG-56"
                                    }
                                ]
                  },
@@ -2473,6 +2545,10 @@
                                        "name":  "Berserk Bear"
                                    },
                                    {
+                                       "entity":  "Microsoft",
+                                       "name":  "Bromine"
+                                   },
+                                   {
                                        "entity":  "MITRE",
                                        "name":  "G0074"
                                    },
@@ -2510,7 +2586,7 @@
                                    },
                                    {
                                        "entity":  "CrowdStrike",
-                                       "name":  "Viceroy Tiger"
+                                       "name":  "Quilted Tiger"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -2560,6 +2636,10 @@
                      "type":  "APT",
                      "country":  "India",
                      "alias":  [
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Hazy Tiger"
+                                   },
                                    {
                                        "entity":  "PWC",
                                        "name":  "Orange Yali"
@@ -2618,7 +2698,7 @@
                                    },
                                    {
                                        "entity":  "CrowdStrike",
-                                       "name":  "Circuit Panda"
+                                       "name":  "Circuit Panda/Radio Panda"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -2741,7 +2821,10 @@
                      "type":  "Organized Crime",
                      "country":  "Russia",
                      "alias":  [
-
+                                   {
+                                       "entity":  "CERT-UA",
+                                       "name":  "UAC-0008"
+                                   }
                                ]
                  },
                  {
@@ -2780,7 +2863,7 @@
                                    },
                                    {
                                        "entity":  "Google TAG",
-                                       "name":  "Cold River"
+                                       "name":  "TAG-53"
                                    }
                                ]
                  },
@@ -2927,6 +3010,10 @@
                                        "name":  "Slayer Kitten"
                                    },
                                    {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0588"
+                                   },
+                                   {
                                        "entity":  "MITRE",
                                        "name":  "G0052"
                                    },
@@ -2958,6 +3045,10 @@
                      "type":  "APT",
                      "country":  "North Korea",
                      "alias":  [
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC4034"
+                                   },
                                    {
                                        "entity":  "CrowdStrike",
                                        "name":  "Labyrinth Chollima"
@@ -3114,6 +3205,10 @@
                      "type":  "APT",
                      "country":  "Unknown",
                      "alias":  [
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "ItaDuke"
+                                   },
                                    {
                                        "entity":  "Kaspersky",
                                        "name":  "DarkUniverse"
@@ -3339,6 +3434,10 @@
                                        "name":  "Energetic Bear / Berserk Bear"
                                    },
                                    {
+                                       "entity":  "Microsoft",
+                                       "name":  "Bromine"
+                                   },
+                                   {
                                        "entity":  "MITRE",
                                        "name":  "G0035"
                                    },
@@ -3364,7 +3463,7 @@
                                    },
                                    {
                                        "entity":  "Dragos",
-                                       "name":  "Allanite/Electrum"
+                                       "name":  "Electrum"
                                    },
                                    {
                                        "entity":  "Symantec",
@@ -3377,6 +3476,22 @@
                                    {
                                        "entity":  "iSight",
                                        "name":  "Koala Team"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Allanite",
+                     "confidence":  "High",
+                     "type":  "APT",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "Dragos",
+                                       "name":  "Allanite"
+                                   },
+                                   {
+                                       "entity":  "JPCERT",
+                                       "name":  "Palmetto Fusion"
                                    }
                                ]
                  },
@@ -3518,7 +3633,7 @@
                  },
                  {
                      "official_name":  "Gallmaker",
-                     "confidence":  "Low",
+                     "confidence":  "Mid",
                      "type":  "APT",
                      "country":  "Unknown",
                      "alias":  [
@@ -3605,7 +3720,7 @@
                                ]
                  },
                  {
-                     "official_name":  "GCMAN",
+                     "official_name":  "Gcman",
                      "confidence":  "High",
                      "type":  "Organized Crime",
                      "country":  "Russia",
@@ -3866,7 +3981,7 @@
                  },
                  {
                      "official_name":  "Iridium",
-                     "confidence":  "Low",
+                     "confidence":  "Mid",
                      "type":  "APT",
                      "country":  "Iran",
                      "alias":  [
@@ -3878,7 +3993,7 @@
                  },
                  {
                      "official_name":  "IronHusky",
-                     "confidence":  "Low",
+                     "confidence":  "Mid",
                      "type":  "APT",
                      "country":  "China",
                      "alias":  [
@@ -3912,7 +4027,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Thallium"
+                                       "name":  "Thallium/Cerium"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -4259,6 +4374,10 @@
                                        "name":  "Red Lich"
                                    },
                                    {
+                                       "entity":  "Trend Micro",
+                                       "name":  "Earth Preta"
+                                   },
+                                   {
                                        "entity":  "CERT-UA",
                                        "name":  "UAC-0084"
                                    }
@@ -4402,6 +4521,14 @@
                      "type":  "APT",
                      "country":  "China",
                      "alias":  [
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "ControlX"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Chromium"
+                                   },
                                    {
                                        "entity":  "Trend Micro",
                                        "name":  "DRBControl"
@@ -4641,6 +4768,18 @@
                                ]
                  },
                  {
+                     "official_name":  "Radium",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "China",
+                     "alias":  [
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Radium"
+                                   }
+                               ]
+                 },
+                 {
                      "official_name":  "Poseidon Group",
                      "confidence":  "High",
                      "type":  "APT",
@@ -4737,7 +4876,7 @@
                                ]
                  },
                  {
-                     "official_name":  "Red Alpha",
+                     "official_name":  "RedAlpha",
                      "confidence":  "Mid",
                      "type":  "APT",
                      "country":  "China",
@@ -4748,11 +4887,11 @@
                                    },
                                    {
                                        "entity":  "Recorded Future",
-                                       "name":  "Red Alpha"
+                                       "name":  "RedAlpha"
                                    },
                                    {
                                        "entity":  "Citizen Lab",
-                                       "name":  "DeepCliff/Red Alpha"
+                                       "name":  "DeepCliff/RedAlpha"
                                    }
                                ]
                  },
@@ -4760,7 +4899,7 @@
                      "official_name":  "RedCurl",
                      "confidence":  "High",
                      "type":  "APT",
-                     "country":  "Unknown",
+                     "country":  "China",
                      "alias":  [
                                    {
                                        "entity":  "Group-IB",
@@ -4770,7 +4909,7 @@
                  },
                  {
                      "official_name":  "RedDelta",
-                     "confidence":  "Mid",
+                     "confidence":  "High",
                      "type":  "APT",
                      "country":  "China",
                      "alias":  [
@@ -4778,6 +4917,15 @@
                                        "entity":  "ThreatRecon",
                                        "name":  "RedDelta"
                                    }
+                               ]
+                 },
+                 {
+                     "official_name":  "RedEcho",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "China",
+                     "alias":  [
+
                                ]
                  },
                  {
@@ -4974,10 +5122,18 @@
                  },
                  {
                      "official_name":  "Sea Turtle",
-                     "confidence":  "Mid",
+                     "confidence":  "High",
                      "type":  "APT",
                      "country":  "Turkey",
                      "alias":  [
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC1326"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Silicon"
+                                   },
                                    {
                                        "entity":  "PWC",
                                        "name":  "Teal Kurma"
@@ -4990,7 +5146,7 @@
                  },
                  {
                      "official_name":  "The Shadow Brokers",
-                     "confidence":  "Mid",
+                     "confidence":  "High",
                      "type":  "Hacktivists",
                      "country":  "United States of America",
                      "alias":  [
@@ -5771,18 +5927,6 @@
                                ]
                  },
                  {
-                     "official_name":  "Doppel Spider",
-                     "confidence":  "High",
-                     "type":  "Organized Crime",
-                     "country":  "Russia",
-                     "alias":  [
-                                   {
-                                       "entity":  "CrowdStrike",
-                                       "name":  "Doppel Spider"
-                                   }
-                               ]
-                 },
-                 {
                      "official_name":  "Dungeon Spider",
                      "confidence":  "High",
                      "type":  "Organized Crime",
@@ -5862,18 +6006,6 @@
                                    {
                                        "entity":  "Secureworks",
                                        "name":  "Gold Swathmore"
-                                   }
-                               ]
-                 },
-                 {
-                     "official_name":  "Monty Spider",
-                     "confidence":  "Unknown",
-                     "type":  "Organized Crime",
-                     "country":  "Russia",
-                     "alias":  [
-                                   {
-                                       "entity":  "CrowdStrike",
-                                       "name":  "Monty Spider"
                                    }
                                ]
                  },
@@ -6098,38 +6230,18 @@
                                ]
                  },
                  {
-                     "official_name":  "Wizard Spider",
+                     "official_name":  "Grim Spider",
                      "confidence":  "High",
                      "type":  "Organized Crime",
                      "country":  "Russia",
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "UNC1878/Temp.MixMaster"
+                                       "name":  "UNC1878"
                                    },
                                    {
                                        "entity":  "CrowdStrike",
                                        "name":  "Grim Spider"
-                                   },
-                                   {
-                                       "entity":  "Microsoft",
-                                       "name":  "DEV-0193"
-                                   },
-                                   {
-                                       "entity":  "MITRE",
-                                       "name":  "G0102"
-                                   },
-                                   {
-                                       "entity":  "IBM",
-                                       "name":  "ITG23"
-                                   },
-                                   {
-                                       "entity":  "Secureworks",
-                                       "name":  "Gold Blackburn"
-                                   },
-                                   {
-                                       "entity":  "PWC",
-                                       "name":  "White Magician"
                                    }
                                ]
                  },
@@ -6192,7 +6304,7 @@
                  },
                  {
                      "official_name":  "Corsair Jackal",
-                     "confidence":  "Low",
+                     "confidence":  "Mid",
                      "type":  "Hacktivists",
                      "country":  "Tunisia",
                      "alias":  [
@@ -6219,7 +6331,7 @@
                                ]
                  },
                  {
-                     "official_name":  "Dizzy Panda",
+                     "official_name":  "LadyBoyle",
                      "confidence":  "Unknown",
                      "type":  "APT",
                      "country":  "China",
@@ -6280,7 +6392,7 @@
                  },
                  {
                      "official_name":  "Ghost Jackal",
-                     "confidence":  "Unknown",
+                     "confidence":  "Low",
                      "type":  "Hacktivists",
                      "country":  "Unknown",
                      "alias":  [
@@ -6292,7 +6404,7 @@
                  },
                  {
                      "official_name":  "Gibberish Panda",
-                     "confidence":  "Unknown",
+                     "confidence":  "Low",
                      "type":  "APT",
                      "country":  "China",
                      "alias":  [
@@ -6355,15 +6467,12 @@
                                ]
                  },
                  {
-                     "official_name":  "Nickel",
-                     "confidence":  "Unknown",
-                     "type":  "Unknown",
-                     "country":  "Unknown",
+                     "official_name":  "Hound Spider",
+                     "confidence":  "Low",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
                      "alias":  [
-                                   {
-                                       "entity":  "Microsoft",
-                                       "name":  "Nickel"
-                                   }
+
                                ]
                  },
                  {
@@ -6439,6 +6548,30 @@
                                    {
                                        "entity":  "CrowdStrike",
                                        "name":  "Predator Panda"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Hurricaine Panda",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "China",
+                     "alias":  [
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Hurricaine Panda"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Knockout Spider",
+                     "confidence":  "Low",
+                     "type":  "Organized Crime",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Knockout Spider"
                                    }
                                ]
                  },
@@ -6540,13 +6673,29 @@
                  },
                  {
                      "official_name":  "Wet Panda",
-                     "confidence":  "Unknown",
+                     "confidence":  "Mid",
                      "type":  "APT",
                      "country":  "China",
                      "alias":  [
                                    {
                                        "entity":  "CrowdStrike",
                                        "name":  "Wet Panda"
+                                   },
+                                   {
+                                       "entity":  "PWC",
+                                       "name":  "Red Chimera"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Tracer Kitten",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "Iran",
+                     "alias":  [
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Tracer Kitten"
                                    }
                                ]
                  },
@@ -6554,7 +6703,7 @@
                      "official_name":  "OnionDog",
                      "confidence":  "High",
                      "type":  "APT",
-                     "country":  "South Korea",
+                     "country":  "North Korea",
                      "alias":  [
                                    {
                                        "entity":  "Qihoo 360",
@@ -6662,7 +6811,7 @@
                      "official_name":  "The Dark Overlord",
                      "confidence":  "High",
                      "type":  "Organized Crime",
-                     "country":  "Multiple",
+                     "country":  "Worldwide",
                      "alias":  [
                                    {
                                        "entity":  "Thales",
@@ -7112,6 +7261,10 @@
                                    {
                                        "entity":  "Palo Alto",
                                        "name":  "Tropical Scorpius"
+                                   },
+                                   {
+                                       "entity":  "Blackberry",
+                                       "name":  "RomCom"
                                    }
                                ]
                  },
@@ -7146,6 +7299,10 @@
                      "country":  "Russia",
                      "alias":  [
                                    {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Doppel spider"
+                                   },
+                                   {
                                        "entity":  "Secureworks",
                                        "name":  "Gold Heron"
                                    },
@@ -7161,6 +7318,10 @@
                      "type":  "Organized Crime",
                      "country":  "Unknown",
                      "alias":  [
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Mallard Spider"
+                                   },
                                    {
                                        "entity":  "IBM",
                                        "name":  "ITG26"
@@ -7182,6 +7343,10 @@
                      "country":  "Unknown",
                      "alias":  [
                                    {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Traveling Spider"
+                                   },
+                                   {
                                        "entity":  "Secureworks",
                                        "name":  "Gold Mansard"
                                    }
@@ -7193,6 +7358,10 @@
                      "type":  "Organized Crime",
                      "country":  "Russia",
                      "alias":  [
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Bitwise Spider"
+                                   },
                                    {
                                        "entity":  "Secureworks",
                                        "name":  "Gold Mystic"
@@ -7237,6 +7406,10 @@
                      "type":  "Organized Crime",
                      "country":  "Unknown",
                      "alias":  [
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Monty Spider"
+                                   },
                                    {
                                        "entity":  "Secureworks",
                                        "name":  "Gold Riverview"
@@ -7358,6 +7531,10 @@
                      "country":  "Russia",
                      "alias":  [
                                    {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  " UNC2165"
+                                   },
+                                   {
                                        "entity":  "Secureworks",
                                        "name":  "Gold Winter"
                                    }
@@ -7475,7 +7652,7 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "UNC2452"
+                                       "name":  "UNC2452/UNC2652"
                                    },
                                    {
                                        "entity":  "CrowdStrike",
@@ -7526,7 +7703,7 @@
                  {
                      "official_name":  "Sands Casino",
                      "confidence":  "Low",
-                     "type":  "Unknown",
+                     "type":  "Organized Crime",
                      "country":  "Iran",
                      "alias":  [
 
@@ -7535,7 +7712,7 @@
                  {
                      "official_name":  "Luoxk",
                      "confidence":  "Mid",
-                     "type":  "Unknown",
+                     "type":  "Organized Crime",
                      "country":  "Unknown",
                      "alias":  [
                                    {
@@ -7589,6 +7766,10 @@
                                    {
                                        "entity":  "Kaspersky",
                                        "name":  "A41APT"
+                                   },
+                                   {
+                                       "entity":  "ESET",
+                                       "name":  "JollyFrog"
                                    },
                                    {
                                        "entity":  "JPCERT",
@@ -7785,7 +7966,7 @@
                      "official_name":  "SideCopy",
                      "confidence":  "Mid",
                      "type":  "APT",
-                     "country":  "India",
+                     "country":  "Pakistan",
                      "alias":  [
                                    {
                                        "entity":  "Qihoo 360",
@@ -7915,7 +8096,7 @@
                  },
                  {
                      "official_name":  "DEV-0343",
-                     "confidence":  "Low",
+                     "confidence":  "Mid",
                      "type":  "APT",
                      "country":  "Iran",
                      "alias":  [
@@ -8166,18 +8347,6 @@
                                    {
                                        "entity":  "CERT-UA",
                                        "name":  "UAC-0056"
-                                   }
-                               ]
-                 },
-                 {
-                     "official_name":  "Buhtrap",
-                     "confidence":  "High",
-                     "type":  "Organized Crime",
-                     "country":  "Russia",
-                     "alias":  [
-                                   {
-                                       "entity":  "CERT-UA",
-                                       "name":  "UAC-0008"
                                    }
                                ]
                  },
@@ -8458,7 +8627,7 @@
                                ]
                  },
                  {
-                     "official_name":  "DEV-0401",
+                     "official_name":  "Slime34",
                      "confidence":  "High",
                      "type":  "Organized Crime",
                      "country":  "China",
@@ -8489,7 +8658,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Curium"
+                                       "name":  "Curium/Bohrium"
                                    },
                                    {
                                        "entity":  "IBM",
@@ -8784,6 +8953,10 @@
                                    {
                                        "entity":  "Mandiant/FireEye",
                                        "name":  "UNC3524"
+                                   },
+                                   {
+                                       "entity":  "Symantec",
+                                       "name":  "Cranefly"
                                    }
                                ]
                  },
@@ -8809,6 +8982,15 @@
                                        "entity":  "Microsoft",
                                        "name":  "DEV-0230"
                                    }
+                               ]
+                 },
+                 {
+                     "official_name":  "DEV-0322",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+
                                ]
                  },
                  {
@@ -8884,10 +9066,22 @@
                                ]
                  },
                  {
+                     "official_name":  "TA578",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Proofpoint",
+                                       "name":  "TA578"
+                                   }
+                               ]
+                 },
+                 {
                      "official_name":  "TA579",
                      "confidence":  "Mid",
                      "type":  "Organized Crime",
-                     "country":  "Unknown",
+                     "country":  "Worldwide",
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
@@ -9001,8 +9195,8 @@
                  },
                  {
                      "official_name":  "DEV-0530",
-                     "confidence":  "Low",
-                     "type":  "Unknown",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
                      "country":  "North Korea",
                      "alias":  [
                                    {
@@ -9080,7 +9274,7 @@
                                ]
                  },
                  {
-                     "official_name":  "Earth Lusca",
+                     "official_name":  "Fishmaster",
                      "confidence":  "Mid",
                      "type":  "APT",
                      "country":  "China",
@@ -9192,11 +9386,15 @@
                                ]
                  },
                  {
-                     "official_name":  "Money Libra",
+                     "official_name":  "Kinsing",
                      "confidence":  "Mid",
                      "type":  "Organized Crime",
                      "country":  "Unknown",
                      "alias":  [
+                                   {
+                                       "entity":  "Trend Micro",
+                                       "name":  "Kinsing"
+                                   },
                                    {
                                        "entity":  "Palo Alto",
                                        "name":  "Money Libra"
@@ -9510,7 +9708,7 @@
                  },
                  {
                      "official_name":  "Polonium",
-                     "confidence":  "Mid",
+                     "confidence":  "High",
                      "type":  "APT",
                      "country":  "Lebanon",
                      "alias":  [
@@ -9542,9 +9740,9 @@
                  },
                  {
                      "official_name":  "DEV-0960",
-                     "confidence":  "Low",
-                     "type":  "Unknown",
-                     "country":  "Unknown",
+                     "confidence":  "High",
+                     "type":  "Organized Crime",
+                     "country":  "Russia",
                      "alias":  [
                                    {
                                        "entity":  "Microsoft",
@@ -9609,6 +9807,480 @@
                                    {
                                        "entity":  "Microsoft",
                                        "name":  "DEV-0832"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Opera1er",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Group-IB",
+                                       "name":  "Opera1er"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Z-Team",
+                     "confidence":  "Low",
+                     "type":  "Hacktivists",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "CERT-UA",
+                                       "name":  "UAC-0118"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "GreyEnergy",
+                     "confidence":  "High",
+                     "type":  "APT",
+                     "country":  "Russia",
+                     "alias":  [
+                                   {
+                                       "entity":  "ESET",
+                                       "name":  "GreyEnergy"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Yanbian Gang",
+                     "confidence":  "High",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Trend Micro",
+                                       "name":  "Yanbian Gang"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Gelsemium",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "China",
+                     "alias":  [
+                                   {
+                                       "entity":  "ESET",
+                                       "name":  "Gelsemium"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Nexus Zeta",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+
+                               ]
+                 },
+                 {
+                     "official_name":  "Riddle Spider",
+                     "confidence":  "Low",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+
+                               ]
+                 },
+                 {
+                     "official_name":  "Tianwu",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "China",
+                     "alias":  [
+
+                               ]
+                 },
+                 {
+                     "official_name":  "Slime29",
+                     "confidence":  "Low",
+                     "type":  "APT",
+                     "country":  "China",
+                     "alias":  [
+
+                               ]
+                 },
+                 {
+                     "official_name":  "Solar Spider",
+                     "confidence":  "Low",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Solar Spider"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Bamboo Spider",
+                     "confidence":  "Low",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Bamboo Spider"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "BelialDemon",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "Palo Alto",
+                                       "name":  "BelialDemon"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Circus Spider",
+                     "confidence":  "High",
+                     "type":  "Organized Crime",
+                     "country":  "Russia",
+                     "alias":  [
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Circus Spider"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Common Raven",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Reuters",
+                                       "name":  "Common Raven"
+                                   },
+                                   {
+                                       "entity":  "SWIFT",
+                                       "name":  "Common Raven"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Copy-Paste",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "Unknown",
+                     "alias":  [
+
+                               ]
+                 },
+                 {
+                     "official_name":  "Curious Gorge",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "China",
+                     "alias":  [
+                                   {
+                                       "entity":  "Google TAG",
+                                       "name":  "Curious Gorge"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Cutting Kitten",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "Iran",
+                     "alias":  [
+                                   {
+                                       "entity":  "ClearSky",
+                                       "name":  "Cutting Kitten"
+                                   },
+                                   {
+                                       "entity":  "US Gov",
+                                       "name":  "ITSecTeam"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "EvilPost",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "China",
+                     "alias":  [
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "EvilPost"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "EvilTraffic",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+
+                               ]
+                 },
+                 {
+                     "official_name":  "Hezb",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+
+                               ]
+                 },
+                 {
+                     "official_name":  "Knotweed",
+                     "confidence":  "Mid",
+                     "type":  "Mercenary",
+                     "country":  "Austria",
+                     "alias":  [
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Knotweed"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Mana Team",
+                     "confidence":  "Low",
+                     "type":  "Organized Crime",
+                     "country":  "Unknown",
+                     "alias":  [
+
+                               ]
+                 },
+                 {
+                     "official_name":  "Mimic Spider",
+                     "confidence":  "Low",
+                     "type":  "Organized Crime",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Mimic Spider"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "ModifiedElephant",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "Sentinel one",
+                                       "name":  "ModifiedElephant"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Nocturnal Spider",
+                     "confidence":  "Low",
+                     "type":  "Organized Crime",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Nocturnal Spider"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "PassCV",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "China",
+                     "alias":  [
+                                   {
+                                       "entity":  "Blackberry",
+                                       "name":  "PassCV"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Predatory Sparrow",
+                     "confidence":  "Mid",
+                     "type":  "Hacktivists",
+                     "country":  "Iran",
+                     "alias":  [
+                                   {
+                                       "entity":  "Checkpoint",
+                                       "name":  "Indra"
+                                   },
+                                   {
+                                       "entity":  "Sentinel one",
+                                       "name":  "MeteorExpress"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "RansomHouse",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+
+                               ]
+                 },
+                 {
+                     "official_name":  "Ratpak Spider",
+                     "confidence":  "Low",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Ratpak Spider"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Shadow Network",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "China",
+                     "alias":  [
+                                   {
+                                       "entity":  "Citizen Lab",
+                                       "name":  "Shadow Network"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Stealth Mango and Tangelo",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "China",
+                     "alias":  [
+                                   {
+                                       "entity":  "Lookout",
+                                       "name":  "Stealth Mango and Tangelo"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Disneyland Team",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+
+                               ]
+                 },
+                 {
+                     "official_name":  "Roasted 0ktapus",
+                     "confidence":  "High",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC3944"
+                                   },
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Scattered Spider"
+                                   },
+                                   {
+                                       "entity":  "Group-IB",
+                                       "name":  "Roasted 0ktapus"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "DEV-0506",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0506"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "DEV-0569",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0569"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "DEV-0858",
+                     "confidence":  "Low",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0858"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "DEV-0228",
+                     "confidence":  "Low",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0228"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "DEV-0198",
+                     "confidence":  "Low",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0198"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "DEV-0215",
+                     "confidence":  "Low",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0215"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Saaiwc Group",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "Group-IB",
+                                       "name":  "Dark Pink"
+                                   },
+                                   {
+                                       "entity":  "Tencent",
+                                       "name":  "APT-LY-1005"
                                    }
                                ]
                  }
