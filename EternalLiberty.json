@@ -4,7 +4,7 @@
                    "Arkbird_SOLG",
                    "BushidoToken"
                ],
-    "version":  "1.1",
+    "version":  "1.0",
     "data":  [
                  {
                      "official_name":  "FIN1",
@@ -91,10 +91,6 @@
                                    {
                                        "entity":  "Thales",
                                        "name":  "ATK88"
-                                   },
-                                   {
-                                       "entity":  "Qihoo 360",
-                                       "name":  "APT-C-01"
                                    },
                                    {
                                        "entity":  "Recorded Future",
@@ -1709,6 +1705,10 @@
                                        "name":  "ATK7"
                                    },
                                    {
+                                       "entity":  "Qihoo 360",
+                                       "name":  "APT-C-42"
+                                   },
+                                   {
                                        "entity":  "Thalos",
                                        "name":  "Group100"
                                    },
@@ -2145,6 +2145,10 @@
                                        "name":  "Hermit"
                                    },
                                    {
+                                       "entity":  "Qihoo 360",
+                                       "name":  "APT-C-28"
+                                   },
+                                   {
                                        "entity":  "ESRC",
                                        "name":  "Geumseong121/Venus 121"
                                    },
@@ -2219,6 +2223,10 @@
                                    {
                                        "entity":  "Tencent",
                                        "name":  "T-APT-15"
+                                   },
+                                   {
+                                       "entity":  "Qihoo 360",
+                                       "name":  "APT-C-26"
                                    },
                                    {
                                        "entity":  "Trend Micro",
@@ -3328,7 +3336,7 @@
                                ]
                  },
                  {
-                     "official_name":  "APT-C-34",
+                     "official_name":  "Golden Falcon",
                      "confidence":  "High",
                      "type":  "APT",
                      "country":  "Russia",
@@ -3343,7 +3351,7 @@
                                    },
                                    {
                                        "entity":  "Qihoo 360",
-                                       "name":  "Golden Falcon"
+                                       "name":  "APT-C-34"
                                    },
                                    {
                                        "entity":  "ESET",
@@ -4268,6 +4276,18 @@
                                ]
                  },
                  {
+                     "official_name":  "Wang Spur",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "North Korea",
+                     "alias":  [
+                                   {
+                                       "entity":  "Qihoo 360",
+                                       "name":  "APT-C-47"
+                                   }
+                               ]
+                 },
+                 {
                      "official_name":  "MoneyTaker",
                      "confidence":  "High",
                      "type":  "Organized Crime",
@@ -4460,6 +4480,18 @@
                                ]
                  },
                  {
+                     "official_name":  "APT-C-33",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "Qihoo 360",
+                                       "name":  "APT-C-33"
+                                   }
+                               ]
+                 },
+                 {
                      "official_name":  "Greenbug",
                      "confidence":  "High",
                      "type":  "APT",
@@ -4619,7 +4651,7 @@
                      "alias":  [
                                    {
                                        "entity":  "Qihoo 360",
-                                       "name":  "Poison Needles"
+                                       "name":  "APT-C-31"
                                    }
                                ]
                  },
@@ -4764,6 +4796,10 @@
                                    {
                                        "entity":  "Thales",
                                        "name":  "ATK33"
+                                   },
+                                   {
+                                       "entity":  "Qihoo 360",
+                                       "name":  "APT-C-30"
                                    }
                                ]
                  },
@@ -5033,6 +5069,10 @@
                                    {
                                        "entity":  "Kaspersky",
                                        "name":  "SandCat"
+                                   },
+                                   {
+                                       "entity":  "Qihoo 360",
+                                       "name":  "APT-C-32"
                                    }
                                ]
                  },
@@ -5085,6 +5125,10 @@
                                    {
                                        "entity":  "Dragos",
                                        "name":  "Electrum"
+                                   },
+                                   {
+                                       "entity":  "Qihoo 360",
+                                       "name":  "APT-C-13"
                                    },
                                    {
                                        "entity":  "Trend Micro",
@@ -5181,7 +5225,7 @@
                                    },
                                    {
                                        "entity":  "Qihoo 360",
-                                       "name":  "APT-C-17"
+                                       "name":  "APT-C-24/APT-C-17"
                                    }
                                ]
                  },
@@ -5299,14 +5343,14 @@
                                ]
                  },
                  {
-                     "official_name":  "APT-C-15",
+                     "official_name":  "Sphinx",
                      "confidence":  "Mid",
                      "type":  "APT",
                      "country":  "Unknown",
                      "alias":  [
                                    {
                                        "entity":  "Qihoo 360",
-                                       "name":  "Sphinx"
+                                       "name":  "APT-C-15"
                                    }
                                ]
                  },
@@ -5359,7 +5403,7 @@
                                ]
                  },
                  {
-                     "official_name":  "APT-C-27",
+                     "official_name":  "Goldmouse",
                      "confidence":  "High",
                      "type":  "APT",
                      "country":  "Syria",
@@ -5370,12 +5414,12 @@
                                    },
                                    {
                                        "entity":  "Qihoo 360",
-                                       "name":  "Goldmouse"
+                                       "name":  "APT-C-27"
                                    }
                                ]
                  },
                  {
-                     "official_name":  "APT-C-37",
+                     "official_name":  "Pat Bear",
                      "confidence":  "High",
                      "type":  "APT",
                      "country":  "Syria",
@@ -5390,7 +5434,7 @@
                                    },
                                    {
                                        "entity":  "Qihoo 360",
-                                       "name":  "Pat Bear"
+                                       "name":  "APT-C-37"
                                    }
                                ]
                  },
@@ -5579,6 +5623,10 @@
                                    {
                                        "entity":  "Symantec",
                                        "name":  "Waterbug"
+                                   },
+                                   {
+                                       "entity":  "Qihoo 360",
+                                       "name":  "APT-C-29"
                                    },
                                    {
                                        "entity":  "BitDefender",
@@ -5779,7 +5827,7 @@
                                ]
                  },
                  {
-                     "official_name":  "APT-C-38",
+                     "official_name":  "ZooPark",
                      "confidence":  "High",
                      "type":  "APT",
                      "country":  "Unknown",
@@ -6079,6 +6127,10 @@
                      "type":  "Organized Crime",
                      "country":  "Russia",
                      "alias":  [
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC2565"
+                                   },
                                    {
                                        "entity":  "CrowdStrike",
                                        "name":  "Pinchy Spider"
@@ -6972,14 +7024,14 @@
                                ]
                  },
                  {
-                     "official_name":  "APT-C-44",
+                     "official_name":  "North African Fox",
                      "confidence":  "Mid",
                      "type":  "APT",
                      "country":  "Algeria",
                      "alias":  [
                                    {
                                        "entity":  "Qihoo 360",
-                                       "name":  "North African Fox"
+                                       "name":  "APT-C-44"
                                    }
                                ]
                  },
@@ -6992,6 +7044,18 @@
                                    {
                                        "entity":  "Kaspersky",
                                        "name":  "TeamXRat"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Greenspot",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "Taiwan",
+                     "alias":  [
+                                   {
+                                       "entity":  "Qihoo 360",
+                                       "name":  "APT-C-01"
                                    }
                                ]
                  },
@@ -7113,14 +7177,14 @@
                                ]
                  },
                  {
-                     "official_name":  "APT-C-12",
+                     "official_name":  "Sapphire Mushroom/Blue Mushroom",
                      "confidence":  "High",
                      "type":  "APT",
                      "country":  "Unknown",
                      "alias":  [
                                    {
                                        "entity":  "Qihoo 360",
-                                       "name":  "Sapphire Mushroom/Blue Mushroom"
+                                       "name":  "APT-C-12"
                                    }
                                ]
                  },
@@ -7968,10 +8032,7 @@
                      "type":  "APT",
                      "country":  "Pakistan",
                      "alias":  [
-                                   {
-                                       "entity":  "Qihoo 360",
-                                       "name":  "APT-C-56"
-                                   }
+
                                ]
                  },
                  {
@@ -8107,6 +8168,18 @@
                                ]
                  },
                  {
+                     "official_name":  "Luhansk Group",
+                     "confidence":  "Mid",
+                     "type":  "Hacktivists",
+                     "country":  "Russia",
+                     "alias":  [
+                                   {
+                                       "entity":  "Qihoo 360",
+                                       "name":  "APT-C-46"
+                                   }
+                               ]
+                 },
+                 {
                      "official_name":  "Pay2Key",
                      "confidence":  "High",
                      "type":  "APT",
@@ -8211,6 +8284,10 @@
                                    {
                                        "entity":  "Symantec",
                                        "name":  "Strider"
+                                   },
+                                   {
+                                       "entity":  "Qihoo 360",
+                                       "name":  "APT-C-16"
                                    }
                                ]
                  },
@@ -8279,6 +8356,10 @@
                                    {
                                        "entity":  "Secureworks",
                                        "name":  "Platinum Colony"
+                                   },
+                                   {
+                                       "entity":  "Qihoo 360",
+                                       "name":  "APT-C-40"
                                    }
                                ]
                  },
@@ -8341,24 +8422,16 @@
                                        "name":  "Ember bear"
                                    },
                                    {
+                                       "entity":  "Symantec",
+                                       "name":  "Nodaria"
+                                   },
+                                   {
                                        "entity":  "Palo Alto",
                                        "name":  "Nascent Ursa"
                                    },
                                    {
                                        "entity":  "CERT-UA",
                                        "name":  "UAC-0056"
-                                   }
-                               ]
-                 },
-                 {
-                     "official_name":  "NSA",
-                     "confidence":  "High",
-                     "type":  "APT",
-                     "country":  "United States of America",
-                     "alias":  [
-                                   {
-                                       "entity":  "Qihoo 360",
-                                       "name":  "APT-C-40"
                                    }
                                ]
                  },
@@ -8743,11 +8816,15 @@
                                ]
                  },
                  {
-                     "official_name":  "Emennet Pasargad",
+                     "official_name":  "Holy Souls",
                      "confidence":  "Mid",
                      "type":  "Organized Crime",
                      "country":  "Iran",
                      "alias":  [
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Neptunium"
+                                   },
                                    {
                                        "entity":  "PWC",
                                        "name":  "Yellow Dev 19"
@@ -10281,6 +10358,99 @@
                                    {
                                        "entity":  "Tencent",
                                        "name":  "APT-LY-1005"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Earth Bogle",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "Trend Micro",
+                                       "name":  "Earth Bogle"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Book of Eli",
+                     "confidence":  "Low",
+                     "type":  "Unknown",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "ESET",
+                                       "name":  "Book of Eli"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Sand Eagle",
+                     "confidence":  "Low",
+                     "type":  "APT",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "Qihoo 360",
+                                       "name":  "APT-C-63"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "False Hunter",
+                     "confidence":  "Low",
+                     "type":  "APT",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "Qihoo 360",
+                                       "name":  "APT-C-60"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Wuqiong Cave",
+                     "confidence":  "Low",
+                     "type":  "APT",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "Qihoo 360",
+                                       "name":  "APT-C-59"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  " Water Dybbuk",
+                     "confidence":  "Mid",
+                     "type":  "Business Email Compromise",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Trend Micro",
+                                       "name":  "Water Dybbuk"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Atlas Group",
+                     "confidence":  "Mid",
+                     "type":  "Hacktivists",
+                     "country":  "Worldwide",
+                     "alias":  [
+
+                               ]
+                 },
+                 {
+                     "official_name":  "NewsPenguin",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "Blackberry",
+                                       "name":  "NewsPenguin"
                                    }
                                ]
                  }
