@@ -8859,7 +8859,7 @@
                                        "name":  "TA580"
                                    },
                                    {
-                                       "entity":  "Kaspersky",
+                                       "entity":  "CrowdStrike",
                                        "name":  "Lily Spider"
                                    },
                                    {
@@ -10375,7 +10375,10 @@
                      "type":  "Organized Crime",
                      "country":  "Worldwide",
                      "alias":  [
-
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Riddle Spider"
+                                   }
                                ]
                  },
                  {
@@ -10543,7 +10546,10 @@
                      "type":  "Hacktivists",
                      "country":  "Venezuela",
                      "alias":  [
-
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Curious Jackal"
+                                   }
                                ]
                  },
                  {
