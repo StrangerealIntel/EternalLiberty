@@ -4,7 +4,7 @@
                    "Arkbird_SOLG",
                    "BushidoToken"
                ],
-    "version":  "1.02",
+    "version":  "1.021",
     "data":  [
                  {
                      "official_name":  "FIN1",
@@ -446,7 +446,7 @@
                                    },
                                    {
                                        "entity":  "CERT-UA",
-                                       "name":  "UAC-0051/UAC-0064"
+                                       "name":  "UAC-0051/UAC-0064/UAC-0105"
                                    },
                                    {
                                        "entity":  "Google TAG",
@@ -1747,6 +1747,10 @@
                                    {
                                        "entity":  "F-secure",
                                        "name":  "The Dukes"
+                                   },
+                                   {
+                                       "entity":  "CERT-UA",
+                                       "name":  "UAC-0029"
                                    }
                                ]
                  },
@@ -3866,6 +3870,10 @@
                                        "name":  "ATK92"
                                    },
                                    {
+                                       "entity":  "Yoroi",
+                                       "name":  "TH-157"
+                                   },
+                                   {
                                        "entity":  "Palo Alto",
                                        "name":  "Pasty Draco/Subaat"
                                    },
@@ -4081,6 +4089,10 @@
                      "type":  "APT",
                      "country":  "North Korea",
                      "alias":  [
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "APT43"
+                                   },
                                    {
                                        "entity":  "Proofpoint",
                                        "name":  "TA406"
@@ -5168,7 +5180,7 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "Temp.Noble"
+                                       "name":  "Temp.Noble/UNC3715"
                                    },
                                    {
                                        "entity":  "Kaspersky",
@@ -5180,7 +5192,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Iridium"
+                                       "name":  "Iridium/DEV-0665"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -5228,7 +5240,7 @@
                                    },
                                    {
                                        "entity":  "CERT-UA",
-                                       "name":  "UAC-0113"
+                                       "name":  "UAC-0082/UAC-0113"
                                    }
                                ]
                  },
@@ -7690,8 +7702,12 @@
                      "official_name":  "Gold Flamingo",
                      "confidence":  "High",
                      "type":  "Organized Crime",
-                     "country":  "Unknown",
+                     "country":  "Worldwide",
                      "alias":  [
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC2596"
+                                   },
                                    {
                                        "entity":  "Secureworks",
                                        "name":  "Gold Flamingo"
@@ -7703,6 +7719,10 @@
                                    {
                                        "entity":  "Blackberry",
                                        "name":  "RomCom"
+                                   },
+                                   {
+                                       "entity":  "CERT-UA",
+                                       "name":  "UAC-0132"
                                    }
                                ]
                  },
@@ -8829,26 +8849,6 @@
                                ]
                  },
                  {
-                     "official_name":  "UAC-0082",
-                     "confidence":  "High",
-                     "type":  "Hacktivists",
-                     "country":  "Russia",
-                     "alias":  [
-                                   {
-                                       "entity":  "Mandiant/FireEye",
-                                       "name":  "UNC3715"
-                                   },
-                                   {
-                                       "entity":  "Microsoft",
-                                       "name":  "DEV-0665"
-                                   },
-                                   {
-                                       "entity":  "CERT-UA",
-                                       "name":  "UAC-0082"
-                                   }
-                               ]
-                 },
-                 {
                      "official_name":  "Exotic Lily",
                      "confidence":  "High",
                      "type":  "Organized Crime",
@@ -8997,6 +8997,18 @@
                                    {
                                        "entity":  "CERT-UA",
                                        "name":  "UAC-0094"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "UAC-0100",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "CERT-UA",
+                                       "name":  "UAC-0100"
                                    }
                                ]
                  },
@@ -9792,6 +9804,78 @@
                                ]
                  },
                  {
+                     "official_name":  "UAC-0140",
+                     "confidence":  "Mid",
+                     "type":  "Unknown",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "CERT-UA",
+                                       "name":  "UAC-0140"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "UAC-0142",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "CERT-UA",
+                                       "name":  "UAC-0142"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Zarya",
+                     "confidence":  "Mid",
+                     "type":  "Hacktivists",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "CERT-UA",
+                                       "name":  "UAC-0109"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "UAC-0133",
+                     "confidence":  "Low",
+                     "type":  "Unknown",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "CERT-UA",
+                                       "name":  "UAC-0133"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "UAC-0119",
+                     "confidence":  "Low",
+                     "type":  "Unknown",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "CERT-UA",
+                                       "name":  "UAC-0119"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "UAC-0120",
+                     "confidence":  "Low",
+                     "type":  "Unknown",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "CERT-UA",
+                                       "name":  "UAC-0120"
+                                   }
+                               ]
+                 },
+                 {
                      "official_name":  "Hive0109",
                      "confidence":  "Low",
                      "type":  "Organized Crime",
@@ -9900,6 +9984,42 @@
                                    {
                                        "entity":  "CrowdStrike",
                                        "name":  "Shattered Panda"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Killnet",
+                     "confidence":  "High",
+                     "type":  "Hacktivists",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "CERT-UA",
+                                       "name":  "UAC-0108"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Xaknet",
+                     "confidence":  "Mid",
+                     "type":  "Hacktivists",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "CERT-UA",
+                                       "name":  "UAC-0106"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "CyberArmyOfRussia",
+                     "confidence":  "High",
+                     "type":  "Hacktivists",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "CERT-UA",
+                                       "name":  " UAC-0107"
                                    }
                                ]
                  },
@@ -10028,18 +10148,6 @@
                                    {
                                        "entity":  "Mandiant/FireEye",
                                        "name":  "UNC2903"
-                                   }
-                               ]
-                 },
-                 {
-                     "official_name":  "UNC2596",
-                     "confidence":  "Mid",
-                     "type":  "Organized Crime",
-                     "country":  "Unknown",
-                     "alias":  [
-                                   {
-                                       "entity":  "Mandiant/FireEye",
-                                       "name":  "UNC2596"
                                    }
                                ]
                  },
@@ -10213,6 +10321,18 @@
                                ]
                  },
                  {
+                     "official_name":  "UAC-0097",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "CERT-UA",
+                                       "name":  "UAC-0097"
+                                   }
+                               ]
+                 },
+                 {
                      "official_name":  "DEV-0960",
                      "confidence":  "High",
                      "type":  "Organized Crime",
@@ -10314,7 +10434,7 @@
                  },
                  {
                      "official_name":  "Z-Team",
-                     "confidence":  "Low",
+                     "confidence":  "Mid",
                      "type":  "Hacktivists",
                      "country":  "Unknown",
                      "alias":  [
@@ -11056,6 +11176,18 @@
                                    {
                                        "entity":  "Thalos",
                                        "name":  "YoroTrooper"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "CommonMagic",
+                     "confidence":  "Low",
+                     "type":  "Unknown",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "Kaspersky",
+                                       "name":  "CommonMagic"
                                    }
                                ]
                  }
