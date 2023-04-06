@@ -11180,14 +11180,14 @@
                                ]
                  },
                  {
-                     "official_name":  "CommonMagic",
+                     "official_name":  "Bad magic",
                      "confidence":  "Low",
                      "type":  "Unknown",
                      "country":  "Unknown",
                      "alias":  [
                                    {
                                        "entity":  "Kaspersky",
-                                       "name":  "CommonMagic"
+                                       "name":  "Bad magic"
                                    }
                                ]
                  }
