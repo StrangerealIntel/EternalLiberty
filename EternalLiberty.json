@@ -4,7 +4,7 @@
                    "Arkbird_SOLG",
                    "BushidoToken"
                ],
-    "version":  "1.021",
+    "version":  "1.022",
     "data":  [
                  {
                      "official_name":  "FIN1",
@@ -69,6 +69,10 @@
                                        "name":  "Skeleton Spider"
                                    },
                                    {
+                                       "entity":  "Microsoft",
+                                       "name":  "Taal/Camouflage Tempest"
+                                   },
+                                   {
                                        "entity":  "MITRE",
                                        "name":  "G0037"
                                    },
@@ -118,7 +122,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Elbrus"
+                                       "name":  "Elbrus/Sangria Tempest"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -222,7 +226,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0950/Chimborazo"
+                                       "name":  "DEV-0950/Chimborazo/Spandex Tempest/Lace Tempest"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -258,30 +262,34 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "FIN12/TEMP.MixMaster/UNC1878"
+                                       "name":  "\"FIN12/TEMP.MixMaster/UNC1878"
                                    },
                                    {
-                                       "entity":  "CrowdStrike",
-                                       "name":  "Wizard Spider"
+                                       "entity":  "Proofpoint",
+                                       "name":  "UNC2053\""
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0193"
+                                       "name":  "Wizard Spider"
                                    },
                                    {
                                        "entity":  "MITRE",
-                                       "name":  "G0102"
+                                       "name":  "DEV-0193/Periwinkle Tempest/DEV-0237/Pistachio Tempest"
                                    },
                                    {
                                        "entity":  "IBM",
+                                       "name":  "G0102"
+                                   },
+                                   {
+                                       "entity":  "RiskIQ",
                                        "name":  "ITG23"
                                    },
                                    {
-                                       "entity":  "Secureworks",
+                                       "entity":  "SCWX CTU",
                                        "name":  "Gold Blackburn"
                                    },
                                    {
-                                       "entity":  "PWC",
+                                       "entity":  "Thales",
                                        "name":  "White Magician"
                                    }
                                ]
@@ -399,30 +407,6 @@
                                ]
                  },
                  {
-                     "official_name":  "TA428",
-                     "confidence":  "High",
-                     "type":  "APT",
-                     "country":  "China",
-                     "alias":  [
-                                   {
-                                       "entity":  "Mandiant/FireEye",
-                                       "name":  "Temp.Hex"
-                                   },
-                                   {
-                                       "entity":  "Proofpoint",
-                                       "name":  "TA428"
-                                   },
-                                   {
-                                       "entity":  "CrowdStrike",
-                                       "name":  "Vicious Panda"
-                                   },
-                                   {
-                                       "entity":  "Secureworks",
-                                       "name":  "Bronze Dudley"
-                                   }
-                               ]
-                 },
-                 {
                      "official_name":  "TA445",
                      "confidence":  "High",
                      "type":  "APT",
@@ -438,11 +422,15 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0257"
+                                       "name":  "DEV-0257/Storm-0257"
                                    },
                                    {
                                        "entity":  "Secureworks",
                                        "name":  "Moonscape"
+                                   },
+                                   {
+                                       "entity":  "PWC",
+                                       "name":  "Blue Dev 4"
                                    },
                                    {
                                        "entity":  "CERT-UA",
@@ -498,7 +486,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0243/Dudear"
+                                       "name":  "DEV-0243/Dudear/Manatee Tempest"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -722,7 +710,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0206"
+                                       "name":  "DEV-0206/Mustard Tempest"
                                    },
                                    {
                                        "entity":  "Secureworks",
@@ -1008,7 +996,7 @@
                  },
                  {
                      "official_name":  "Pitty Panda\"",
-                     "confidence":  "Manganese",
+                     "confidence":  "Manganese/Mulberry Typhoon",
                      "type":  "G0011",
                      "country":  "",
                      "alias":  [
@@ -1214,7 +1202,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Nickel"
+                                       "name":  "Nickel/Nylon Typhoon"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -1231,6 +1219,10 @@
                                    {
                                        "entity":  "SCWX CTU",
                                        "name":  "Bronze Davenport/Bronze Idlewood/CTG-9246"
+                                   },
+                                   {
+                                       "entity":  "PWC",
+                                       "name":  "Red Vulture"
                                    },
                                    {
                                        "entity":  "Thales",
@@ -1438,7 +1430,11 @@
                                    },
                                    {
                                        "entity":  "Secureworks",
-                                       "name":  "Bronze Olive"
+                                       "name":  "Bronze Olive/Bronze Export"
+                                   },
+                                   {
+                                       "entity":  "SCWX CTU",
+                                       "name":  "TG-3279"
                                    },
                                    {
                                        "entity":  "Symantec",
@@ -1458,11 +1454,15 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "APT23"
+                                       "name":  "APT23/Temp.Hex"
+                                   },
+                                   {
+                                       "entity":  "Proofpoint",
+                                       "name":  "TA428"
                                    },
                                    {
                                        "entity":  "CrowdStrike",
-                                       "name":  "Pirate Panda"
+                                       "name":  "Pirate Panda/Vicious Panda"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -1470,7 +1470,7 @@
                                    },
                                    {
                                        "entity":  "Secureworks",
-                                       "name":  "Bronze Hobart"
+                                       "name":  "Bronze Hobart/Bronze Dudley"
                                    },
                                    {
                                        "entity":  "PWC",
@@ -1606,7 +1606,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Strontium"
+                                       "name":  "Strontium/Forest Blizzard"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -1773,6 +1773,10 @@
                                        "name":  "Override Panda"
                                    },
                                    {
+                                       "entity":  "Microsoft",
+                                       "name":  "Radium/Raspberry Typhoon"
+                                   },
+                                   {
                                        "entity":  "MITRE",
                                        "name":  "G0019/G0013"
                                    },
@@ -1806,7 +1810,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Zirconium"
+                                       "name":  "Zirconium/Violet Typhoon"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -1838,7 +1842,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Bismuth"
+                                       "name":  "Bismuth/Canvas Cyclone"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -1898,7 +1902,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Holmium"
+                                       "name":  "Holmium/Peach Sandstorm"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -1954,7 +1958,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Europium"
+                                       "name":  "Europium/Hazel Sandstorm"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -2022,7 +2026,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Phosphorus"
+                                       "name":  "Phosphorus/Mint Sandstorm"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -2146,7 +2150,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Thallium/Osmium"
+                                       "name":  "Thallium/Osmium/Opal Sleet"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -2222,7 +2226,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Copernicium"
+                                       "name":  "Copernicium/Sapphire Sleet"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -2327,18 +2331,18 @@
                                ]
                  },
                  {
-                     "official_name":  "APT40",
+                     "official_name":  "Leviathan",
                      "confidence":  "High",
                      "type":  "APT",
                      "country":  "China",
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "Temp.Periscope/Temp.Jumper"
+                                       "name":  "Temp.Periscope/Temp.Jumper/APT40"
                                    },
                                    {
                                        "entity":  "Proofpoint",
-                                       "name":  "Leviathan"
+                                       "name":  "TA423"
                                    },
                                    {
                                        "entity":  "CrowdStrike",
@@ -2346,7 +2350,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Gadolinium"
+                                       "name":  "Gadolinium/Gingham Typhoon"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -2359,6 +2363,10 @@
                                    {
                                        "entity":  "Secureworks",
                                        "name":  "Bronze Mohawk"
+                                   },
+                                   {
+                                       "entity":  "PWC",
+                                       "name":  "Red Ladon"
                                    },
                                    {
                                        "entity":  "Thales",
@@ -2398,7 +2406,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Barium"
+                                       "name":  "Barium/Brass Typhoon"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -2895,11 +2903,11 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Seaborgium"
+                                       "name":  "Seaborgium/Star Blizzard"
                                    },
                                    {
                                        "entity":  "Secureworks",
-                                       "name":  "Cobalt Edgewater"
+                                       "name":  "Cobalt Edgewater/Iron Frontier"
                                    },
                                    {
                                        "entity":  "PWC",
@@ -3107,7 +3115,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Zinc"
+                                       "name":  "Zinc/Diamond Sleet"
                                    },
                                    {
                                        "entity":  "Secureworks",
@@ -3187,7 +3195,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Dubnium"
+                                       "name":  "Dubnium/Zigzag Hail"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -3495,7 +3503,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Bromine"
+                                       "name":  "Bromine/Ghost Blizzard"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -3624,6 +3632,26 @@
                                ]
                  },
                  {
+                     "official_name":  "Winter Vivern",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "Proofpoint",
+                                       "name":  "TA473"
+                                   },
+                                   {
+                                       "entity":  "Sentinel one",
+                                       "name":  "Winter Vivern"
+                                   },
+                                   {
+                                       "entity":  "CERT-UA",
+                                       "name":  "UAC-0114"
+                                   }
+                               ]
+                 },
+                 {
                      "official_name":  "Flying Kitten",
                      "confidence":  "High",
                      "type":  "APT",
@@ -3683,7 +3711,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Gallium"
+                                       "name":  "Gallium/Granite Typhoon"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -3691,7 +3719,7 @@
                                    },
                                    {
                                        "entity":  "PWC",
-                                       "name":  "Red Dev 4"
+                                       "name":  "Red Moros/Red Dev 4"
                                    },
                                    {
                                        "entity":  "Palo Alto",
@@ -3735,7 +3763,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0157/Actinum"
+                                       "name":  "DEV-0157/Actinum/Aqua Blizzard"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -4107,7 +4135,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Thallium/Cerium"
+                                       "name":  "Thallium/Cerium/Ruby Sleet/Emerald Sleet"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -4383,7 +4411,7 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "Temp.Zagros"
+                                       "name":  "Temp.Zagros/UNC3313"
                                    },
                                    {
                                        "entity":  "Proofpoint",
@@ -4395,7 +4423,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Mercury"
+                                       "name":  "Mercury/Mango Sandstorm"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -4424,6 +4452,10 @@
                                    {
                                        "entity":  "Tencent",
                                        "name":  "T-APT-14"
+                                   },
+                                   {
+                                       "entity":  "Trend Micro",
+                                       "name":  "Earth Vetala"
                                    },
                                    {
                                        "entity":  "Palo Alto",
@@ -4636,7 +4668,7 @@
                                ]
                  },
                  {
-                     "official_name":  "DRBControl",
+                     "official_name":  "Fishmaster",
                      "confidence":  "High",
                      "type":  "APT",
                      "country":  "China",
@@ -4647,15 +4679,27 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Chromium"
+                                       "name":  "Chromium/Charcoal Typhoon"
+                                   },
+                                   {
+                                       "entity":  "IBM",
+                                       "name":  "Hive0119"
                                    },
                                    {
                                        "entity":  "Secureworks",
                                        "name":  "Bronze University"
                                    },
                                    {
+                                       "entity":  "PWC",
+                                       "name":  "Red Scylla/Red Dev 10"
+                                   },
+                                   {
                                        "entity":  "Trend Micro",
-                                       "name":  "DRBControl"
+                                       "name":  "DRBControl/Earth Lusca"
+                                   },
+                                   {
+                                       "entity":  "Recorded Future",
+                                       "name":  "Tag-22"
                                    }
                                ]
                  },
@@ -4796,22 +4840,6 @@
                                ]
                  },
                  {
-                     "official_name":  "ViceLeaker",
-                     "confidence":  "Mid",
-                     "type":  "APT",
-                     "country":  "Unknown",
-                     "alias":  [
-                                   {
-                                       "entity":  "Kaspersky",
-                                       "name":  "ViceLeaker"
-                                   },
-                                   {
-                                       "entity":  "Microsoft",
-                                       "name":  "DEV-0198"
-                                   }
-                               ]
-                 },
-                 {
                      "official_name":  "WizardOpium",
                      "confidence":  "Mid",
                      "type":  "APT",
@@ -4892,18 +4920,6 @@
                                    {
                                        "entity":  "Qihoo 360",
                                        "name":  "APT-C-30"
-                                   }
-                               ]
-                 },
-                 {
-                     "official_name":  "Radium",
-                     "confidence":  "Mid",
-                     "type":  "APT",
-                     "country":  "China",
-                     "alias":  [
-                                   {
-                                       "entity":  "Microsoft",
-                                       "name":  "Radium"
                                    }
                                ]
                  },
@@ -5129,6 +5145,42 @@
                                ]
                  },
                  {
+                     "official_name":  "Red Dev 32",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "China",
+                     "alias":  [
+                                   {
+                                       "entity":  "PWC",
+                                       "name":  "Red Dev 32"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Red Dev 14",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "China",
+                     "alias":  [
+                                   {
+                                       "entity":  "PWC",
+                                       "name":  "Red Dev 14"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Red Dev 26",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "China",
+                     "alias":  [
+                                   {
+                                       "entity":  "PWC",
+                                       "name":  "Red Dev 26"
+                                   }
+                               ]
+                 },
+                 {
                      "official_name":  "RTM",
                      "confidence":  "High",
                      "type":  "Organized Crime",
@@ -5192,7 +5244,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Iridium/DEV-0665"
+                                       "name":  "Iridium/DEV-0665/Seashell Blizzard/Sunglow Blizzard"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -5276,7 +5328,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Silicon"
+                                       "name":  "Silicon/Marbled Dust"
                                    },
                                    {
                                        "entity":  "PWC",
@@ -5495,6 +5547,18 @@
                                ]
                  },
                  {
+                     "official_name":  "TEMP.Hermit",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "North Korea",
+                     "alias":  [
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC577/UNC2970/TEMP.Hermit"
+                                   }
+                               ]
+                 },
+                 {
                      "official_name":  "Sweed",
                      "confidence":  "High",
                      "type":  "Script Kiddies",
@@ -5706,7 +5770,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Krypton"
+                                       "name":  "Krypton/Secret Blizzard"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -5891,6 +5955,10 @@
                                    {
                                        "entity":  "MITRE",
                                        "name":  "G0090"
+                                   },
+                                   {
+                                       "entity":  "PWC",
+                                       "name":  "White Dev 21"
                                    },
                                    {
                                        "entity":  "LAB52",
@@ -6226,14 +6294,14 @@
                                ]
                  },
                  {
-                     "official_name":  "Parinacota",
+                     "official_name":  "Wadhrama",
                      "confidence":  "High",
                      "type":  "Organized Crime",
                      "country":  "Unknown",
                      "alias":  [
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Parinacota"
+                                       "name":  "Parinacota/Wine Tempest"
                                    }
                                ]
                  },
@@ -7327,11 +7395,15 @@
                                ]
                  },
                  {
-                     "official_name":  "Anonymous Argentina",
+                     "official_name":  "Anonymous",
                      "confidence":  "High",
                      "type":  "Hacktivists",
                      "country":  "Argentina",
                      "alias":  [
+                                   {
+                                       "entity":  "PWC",
+                                       "name":  " Grey Ares"
+                                   },
                                    {
                                        "entity":  "Thales",
                                        "name":  "ATK122"
@@ -7611,6 +7683,46 @@
                                ]
                  },
                  {
+                     "official_name":  "Gold Andrew",
+                     "confidence":  "High",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Secureworks",
+                                       "name":  "Gold Andrew"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Gold Aztec",
+                     "confidence":  "High",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Secureworks",
+                                       "name":  "Gold Aztec"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Cobalt Aztec",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "Iran",
+                     "alias":  [
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-1084/Storm-1084"
+                                   },
+                                   {
+                                       "entity":  "Secureworks",
+                                       "name":  "Cobalt Aztec"
+                                   }
+                               ]
+                 },
+                 {
                      "official_name":  "Gold Blazer",
                      "confidence":  "High",
                      "type":  "Organized Crime",
@@ -7659,6 +7771,10 @@
                                    {
                                        "entity":  "CrowdStrike",
                                        "name":  "Sprite Spider"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Spurr/Tomato Tempest"
                                    },
                                    {
                                        "entity":  "IBM",
@@ -7711,6 +7827,10 @@
                                    {
                                        "entity":  "Secureworks",
                                        "name":  "Gold Flamingo"
+                                   },
+                                   {
+                                       "entity":  "PWC",
+                                       "name":  "White Baku"
                                    },
                                    {
                                        "entity":  "Palo Alto",
@@ -7891,10 +8011,6 @@
                                    {
                                        "entity":  "SCWX CTU",
                                        "name":  "Wire-Wire Group 1"
-                                   },
-                                   {
-                                       "entity":  "PWC",
-                                       "name":  "Wire-Wire Group 1"
                                    }
                                ]
                  },
@@ -7946,7 +8062,7 @@
                                    },
                                    {
                                        "entity":  "PWC",
-                                       "name":  "White Onibi"
+                                       "name":  "White Onibi/Blue Cronus"
                                    }
                                ]
                  },
@@ -8087,30 +8203,63 @@
                                ]
                  },
                  {
-                     "official_name":  "Gold Rainforest",
+                     "official_name":  "LAPSUS$",
                      "confidence":  "High",
                      "type":  "Organized Crime",
                      "country":  "Worldwide",
                      "alias":  [
                                    {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC3661"
+                                   },
+                                   {
                                        "entity":  "CrowdStrike",
                                        "name":  "Slippy Spider"
                                    },
                                    {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0537/Strawberry Tempest"
+                                   },
+                                   {
                                        "entity":  "Secureworks",
                                        "name":  "Gold Rainforest"
+                                   },
+                                   {
+                                       "entity":  "PWC",
+                                       "name":  "\"White Dev"
                                    }
+                               ]
+                 },
+                 {
+                     "official_name":  "111\"",
+                     "confidence":  "",
+                     "type":  "",
+                     "country":  "",
+                     "alias":  [
+
                                ]
                  },
                  {
                      "official_name":  "Karakurt Team",
                      "confidence":  "High",
                      "type":  "Organized Crime",
-                     "country":  "Unknown",
+                     "country":  "Worldwide",
                      "alias":  [
                                    {
                                        "entity":  "Secureworks",
                                        "name":  "Gold Tomahawk"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Royal",
+                     "confidence":  "High",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Secureworks",
+                                       "name":  "Gold Souvenir"
                                    }
                                ]
                  },
@@ -8130,7 +8279,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Nobelium"
+                                       "name":  "Nobelium/Midnight Blizzard"
                                    },
                                    {
                                        "entity":  "IBM",
@@ -8280,7 +8429,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Hafnium"
+                                       "name":  "Hafnium/Silk Typhoon"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -8355,8 +8504,8 @@
                  {
                      "official_name":  "Agrius",
                      "confidence":  "Mid",
-                     "type":  "Unknown",
-                     "country":  "Israel",
+                     "type":  "APT",
+                     "country":  "Iran",
                      "alias":  [
                                    {
                                        "entity":  "CrowdStrike",
@@ -8364,7 +8513,11 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0227"
+                                       "name":  "DEV-0227/Americium/Pink Sandstorm"
+                                   },
+                                   {
+                                       "entity":  "Secureworks",
+                                       "name":  "Cobalt Shadow "
                                    },
                                    {
                                        "entity":  "Thales",
@@ -8576,7 +8729,7 @@
                      "alias":  [
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0343"
+                                       "name":  "DEV-0343/Gray Sandstorm"
                                    }
                                ]
                  },
@@ -8616,7 +8769,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Rubidium"
+                                       "name":  "Rubidium/Lemon Sandstorm"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -8652,7 +8805,11 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0500"
+                                       "name":  "DEV-0500/Marigold Sandstorm"
+                                   },
+                                   {
+                                       "entity":  "Secureworks",
+                                       "name":  "Cobalt Sapling"
                                    },
                                    {
                                        "entity":  "PWC",
@@ -8933,22 +9090,6 @@
                                ]
                  },
                  {
-                     "official_name":  "LAPSUS$",
-                     "confidence":  "High",
-                     "type":  "Organized Crime",
-                     "country":  "Worldwide",
-                     "alias":  [
-                                   {
-                                       "entity":  "Mandiant/FireEye",
-                                       "name":  "UNC3661"
-                                   },
-                                   {
-                                       "entity":  "Microsoft",
-                                       "name":  "DEV-0537"
-                                   }
-                               ]
-                 },
-                 {
                      "official_name":  "UAC-0026",
                      "confidence":  "Low",
                      "type":  "Unknown",
@@ -9112,7 +9253,7 @@
                      "alias":  [
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0401"
+                                       "name":  "DEV-0401/Cinnamon Tempest"
                                    },
                                    {
                                        "entity":  "RiskIQ",
@@ -9136,7 +9277,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Curium/Bohrium"
+                                       "name":  "Curium/Crimson Sandstorm"
                                    },
                                    {
                                        "entity":  "IBM",
@@ -9163,6 +9304,10 @@
                      "country":  "Israel",
                      "alias":  [
                                    {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0336/Night Tsunami"
+                                   },
+                                   {
                                        "entity":  "PWC",
                                        "name":  "Grey Anqa"
                                    }
@@ -9175,8 +9320,36 @@
                      "country":  "Worldwide",
                      "alias":  [
                                    {
+                                       "entity":  "Microsoft",
+                                       "name":  "Sourgum/Caramel Tsunami"
+                                   },
+                                   {
                                        "entity":  "PWC",
                                        "name":  "Grey Mazzikim"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "QuaDream",
+                     "confidence":  "Mid",
+                     "type":  "Mercenary",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0196/Carmine Tsunami"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "CyberRoot",
+                     "confidence":  "Mid",
+                     "type":  "Mercenary",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0605/Wisteria Tsunami"
                                    }
                                ]
                  },
@@ -9188,7 +9361,7 @@
                      "alias":  [
                                    {
                                        "entity":  "PWC",
-                                       "name":  "Red Dev 18"
+                                       "name":  "Red Menshen/Red Dev 18"
                                    }
                                ]
                  },
@@ -9200,7 +9373,7 @@
                      "alias":  [
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0146"
+                                       "name":  "DEV-0146/Pumpkin Sandstorm"
                                    },
                                    {
                                        "entity":  "PWC",
@@ -9227,12 +9400,16 @@
                      "country":  "Iran",
                      "alias":  [
                                    {
+                                       "entity":  "Kaspersky",
+                                       "name":  "Vice Leaker"
+                                   },
+                                   {
                                        "entity":  "CrowdStrike",
                                        "name":  "Haywire Kitten"
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Neptunium"
+                                       "name":  "Neptunium/Cotton Sandstorm/DEV-0198"
                                    },
                                    {
                                        "entity":  "PWC",
@@ -9241,6 +9418,30 @@
                                    {
                                        "entity":  "US Gov",
                                        "name":  "Emennet Pasargad"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Yellow Dev 32",
+                     "confidence":  "Low",
+                     "type":  "Organized Crime",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "PWC",
+                                       "name":  "Yellow Dev 32"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "White Dev 140",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "PWC",
+                                       "name":  "White Dev 140"
                                    }
                                ]
                  },
@@ -9463,6 +9664,18 @@
                                ]
                  },
                  {
+                     "official_name":  "DEV-0215",
+                     "confidence":  "Low",
+                     "type":  "APT",
+                     "country":  "North Korea",
+                     "alias":  [
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0215/Lawrencium/Pearl Sleet"
+                                   }
+                               ]
+                 },
+                 {
                      "official_name":  "DEV-0230",
                      "confidence":  "Mid",
                      "type":  "Organized Crime",
@@ -9478,9 +9691,12 @@
                      "official_name":  "DEV-0322",
                      "confidence":  "Mid",
                      "type":  "Organized Crime",
-                     "country":  "Worldwide",
+                     "country":  "China",
                      "alias":  [
-
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0322/Circle Typhoon"
+                                   }
                                ]
                  },
                  {
@@ -9503,7 +9719,7 @@
                      "alias":  [
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0504"
+                                       "name":  "DEV-0504/Velvet Tempest"
                                    }
                                ]
                  },
@@ -9528,6 +9744,18 @@
                                    {
                                        "entity":  "Microsoft",
                                        "name":  "DEV-0448"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "DEV-0796",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0796/Phlox Tempest"
                                    }
                                ]
                  },
@@ -9609,7 +9837,7 @@
                  },
                  {
                      "official_name":  "Bohrium",
-                     "confidence":  "Low",
+                     "confidence":  "Mid",
                      "type":  "APT",
                      "country":  "Iran",
                      "alias":  [
@@ -9619,7 +9847,11 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Bohrium"
+                                       "name":  "Bohrium/Smoke Sandstorm"
+                                   },
+                                   {
+                                       "entity":  "PWC",
+                                       "name":  "Yellow Dev 13"
                                    }
                                ]
                  },
@@ -9691,7 +9923,7 @@
                      "alias":  [
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0530"
+                                       "name":  "DEV-0530/Storm-0530"
                                    }
                                ]
                  },
@@ -9740,26 +9972,6 @@
                                    {
                                        "entity":  "Checkpoint",
                                        "name":  "DangerousSavanna"
-                                   }
-                               ]
-                 },
-                 {
-                     "official_name":  "Fishmaster",
-                     "confidence":  "Mid",
-                     "type":  "APT",
-                     "country":  "China",
-                     "alias":  [
-                                   {
-                                       "entity":  "IBM",
-                                       "name":  "Hive0119"
-                                   },
-                                   {
-                                       "entity":  "Trend Micro",
-                                       "name":  "Earth Lusca"
-                                   },
-                                   {
-                                       "entity":  "Recorded Future",
-                                       "name":  "Tag-22"
                                    }
                                ]
                  },
@@ -9994,6 +10206,10 @@
                      "country":  "Worldwide",
                      "alias":  [
                                    {
+                                       "entity":  "PWC",
+                                       "name":  "Blue Kurama"
+                                   },
+                                   {
                                        "entity":  "CERT-UA",
                                        "name":  "UAC-0108"
                                    }
@@ -10031,7 +10247,7 @@
                      "alias":  [
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0586"
+                                       "name":  "DEV-0586/Cadet Blizzard"
                                    },
                                    {
                                        "entity":  "Palo Alto",
@@ -10048,18 +10264,6 @@
                                    {
                                        "entity":  "Palo Alto",
                                        "name":  "Prying Libra"
-                                   }
-                               ]
-                 },
-                 {
-                     "official_name":  "UNC2053",
-                     "confidence":  "High",
-                     "type":  "Organized Crime",
-                     "country":  "Russia",
-                     "alias":  [
-                                   {
-                                       "entity":  "Mandiant/FireEye",
-                                       "name":  "UNC2053"
                                    }
                                ]
                  },
@@ -10277,6 +10481,22 @@
                                ]
                  },
                  {
+                     "official_name":  "Gold Rebellion",
+                     "confidence":  "High",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Secureworks",
+                                       "name":  "Gold Rebellion"
+                                   },
+                                   {
+                                       "entity":  "PWC",
+                                       "name":  "White Dev 115"
+                                   }
+                               ]
+                 },
+                 {
                      "official_name":  "Bronze Spiral",
                      "confidence":  "Mid",
                      "type":  "APT",
@@ -10296,7 +10516,7 @@
                      "alias":  [
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Polonium"
+                                       "name":  "Polonium/Plaid Rain"
                                    }
                                ]
                  },
@@ -10359,6 +10579,10 @@
                                        "name":  "DEV-0842"
                                    },
                                    {
+                                       "entity":  "PWC",
+                                       "name":  "Yellow Dev 31"
+                                   },
+                                   {
                                        "entity":  "US Gov",
                                        "name":  "HomeLand Justice"
                                    }
@@ -10404,7 +10628,11 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0832"
+                                       "name":  "DEV-0832/Vanilla Tempest"
+                                   },
+                                   {
+                                       "entity":  "Secureworks",
+                                       "name":  "Gold Victor"
                                    }
                                ]
                  },
@@ -10710,7 +10938,7 @@
                      "alias":  [
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Knotweed"
+                                       "name":  "Knotweed/Denim Tsunami"
                                    }
                                ]
                  },
@@ -10908,12 +11136,28 @@
                                        "name":  "Scattered Spider"
                                    },
                                    {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0875"
+                                   },
+                                   {
                                        "entity":  "Group-IB",
                                        "name":  "Roasted 0ktapus"
                                    },
                                    {
                                        "entity":  "Sentinel one",
                                        "name":  "Roasted 0ktapus"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Nwgen Team",
+                     "confidence":  "High",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0829"
                                    }
                                ]
                  },
@@ -10926,6 +11170,18 @@
                                    {
                                        "entity":  "Microsoft",
                                        "name":  "DEV-0506"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "DEV-0234",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "China",
+                     "alias":  [
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0234/Lilac Typhoon"
                                    }
                                ]
                  },
@@ -10957,35 +11213,11 @@
                      "official_name":  "DEV-0228",
                      "confidence":  "Low",
                      "type":  "Organized Crime",
-                     "country":  "Worldwide",
+                     "country":  "Iran",
                      "alias":  [
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0228"
-                                   }
-                               ]
-                 },
-                 {
-                     "official_name":  "DEV-0198",
-                     "confidence":  "Low",
-                     "type":  "Organized Crime",
-                     "country":  "Worldwide",
-                     "alias":  [
-                                   {
-                                       "entity":  "Microsoft",
-                                       "name":  "DEV-0198"
-                                   }
-                               ]
-                 },
-                 {
-                     "official_name":  "DEV-0215",
-                     "confidence":  "Low",
-                     "type":  "Organized Crime",
-                     "country":  "Worldwide",
-                     "alias":  [
-                                   {
-                                       "entity":  "Microsoft",
-                                       "name":  "DEV-0215"
+                                       "name":  "DEV-0228/Cuboid Sandstorm"
                                    }
                                ]
                  },
