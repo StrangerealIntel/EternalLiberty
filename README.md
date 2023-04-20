@@ -89,5 +89,45 @@
               <li><a href="https://cert.gov.ua/search/UAC-">Threat Actors (UAC)</a></li>
             <ul></td>
        </tr>
+       <tr>
+            <td>Microsoft</td>
+            <td><ul>
+              <li><a href="https://learn.microsoft.com/en-us/microsoft-365/security/intelligence/microsoft-threat-actor-naming?view=o365-worldwide">Threat Actors + naming taxonomy</a></li>
+            <ul></td>
+       </tr>   
     </tbody>
 </table>
+
+## Naming scheme
+### Secureworks
+<p>
+Cybercrime -> Gold X<br/>
+China -> Bronze X<br/>
+India -> Zinc X<br/>
+Iran -> Cobalt X<br/>
+North Korea -> Nickel X<br/>
+Pakistan -> Copper X<br/>
+Palestine -> Aluminum X<br/>
+Russia -> Iron X<br/>
+South Korea -> Tungsten X<br/>
+United States -> Platinum X<br/>
+Vietnam -> Tin X<br/>
+Emerging Threats -> MoonX ? (MOONSCAPE - TA445 - UAC-0051 - UNC1151)
+</p>
+
+### PWC 
+<p>
+North Korea-based (Black)<br/>
+Russia-based (Blue)<br/>
+China-based (Red)<br/>
+Iran-based (Yellow)<br/>
+India-based (Orange)<br/>
+Five Eyes-based (Magenta)<br/>
+Nigeria-based (Bronze)<br/>
+Location agnostic or based out of multiple countries (Grey)<br/>
+Cybercrime group (White)
+</p>
+
+### Microsoft 
+![image](https://user-images.githubusercontent.com/54320855/233427302-73400949-bd55-4196-b909-d78724b45ae9.png)
+*Credits: Microsoft*
