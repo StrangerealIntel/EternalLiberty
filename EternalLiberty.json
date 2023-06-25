@@ -438,7 +438,7 @@
                                    },
                                    {
                                        "entity":  "Google TAG",
-                                       "name":  "Ghostwriter"
+                                       "name":  "Ghostwriter/Pushcha"
                                    }
                                ]
                  },
@@ -671,6 +671,10 @@
                                    {
                                        "entity":  "Proofpoint",
                                        "name":  "TA558"
+                                   },
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Odyssey Spider"
                                    },
                                    {
                                        "entity":  "Thalos",
@@ -1229,6 +1233,10 @@
                                        "name":  "ATK103"
                                    },
                                    {
+                                       "entity":  "Symantec",
+                                       "name":  "Flea"
+                                   },
+                                   {
                                        "entity":  "NCC Group",
                                        "name":  "Royal APT"
                                    }
@@ -1679,6 +1687,10 @@
                                    {
                                        "entity":  "CERT-UA",
                                        "name":  "UAC-0028"
+                                   },
+                                   {
+                                       "entity":  "Google TAG",
+                                       "name":  "Frozenlake"
                                    }
                                ]
                  },
@@ -2038,7 +2050,7 @@
                                    },
                                    {
                                        "entity":  "Secureworks",
-                                       "name":  "Cobalt Mirage/Cobalt illusion"
+                                       "name":  "Cobalt illusion"
                                    },
                                    {
                                        "entity":  "SCWX CTU",
@@ -2435,6 +2447,10 @@
                                    {
                                        "entity":  "Elastic",
                                        "name":  "REF2924"
+                                   },
+                                   {
+                                       "entity":  "Google TAG",
+                                       "name":  "Hoodoo"
                                    }
                                ]
                  },
@@ -2783,6 +2799,10 @@
                                    {
                                        "entity":  "Palo Alto",
                                        "name":  "BendyBear/Manga Taurus"
+                                   },
+                                   {
+                                       "entity":  "JPCERT",
+                                       "name":  "Huapi"
                                    }
                                ]
                  },
@@ -2923,7 +2943,7 @@
                                    },
                                    {
                                        "entity":  "Google TAG",
-                                       "name":  "TAG-53"
+                                       "name":  "TAG-53/Coldriver"
                                    }
                                ]
                  },
@@ -4171,7 +4191,7 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Plutonium"
+                                       "name":  "Plutonium/Onyx Sleet"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -4504,6 +4524,10 @@
                                    {
                                        "entity":  "Trend Micro",
                                        "name":  "Earth Preta"
+                                   },
+                                   {
+                                       "entity":  "Checkpoint",
+                                       "name":  "Camaro Dragon"
                                    },
                                    {
                                        "entity":  "CERT-UA",
@@ -5292,7 +5316,11 @@
                                    },
                                    {
                                        "entity":  "CERT-UA",
-                                       "name":  "UAC-0082/UAC-0113"
+                                       "name":  "UAC-0082/UAC-0113/UAC-0165"
+                                   },
+                                   {
+                                       "entity":  "Google TAG",
+                                       "name":  "Frozenbarents"
                                    }
                                ]
                  },
@@ -5761,6 +5789,10 @@
                      "country":  "Russia",
                      "alias":  [
                                    {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC4210"
+                                   },
+                                   {
                                        "entity":  "Kaspersky",
                                        "name":  "Turla"
                                    },
@@ -5819,6 +5851,10 @@
                                    {
                                        "entity":  "NSA",
                                        "name":  "SIG2/SIG15/SIG23"
+                                   },
+                                   {
+                                       "entity":  "Google TAG",
+                                       "name":  "Summit"
                                    }
                                ]
                  },
@@ -6971,6 +7007,18 @@
                                ]
                  },
                  {
+                     "official_name":  "Medusa",
+                     "confidence":  "High",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Frozen Spider"
+                                   }
+                               ]
+                 },
+                 {
                      "official_name":  "Percussion Spider",
                      "confidence":  "Mid",
                      "type":  "Organized Crime",
@@ -7036,7 +7084,7 @@
                  },
                  {
                      "official_name":  "Lockean",
-                     "confidence":  "Low",
+                     "confidence":  "Mid",
                      "type":  "Organized Crime",
                      "country":  "Worldwide",
                      "alias":  [
@@ -7723,6 +7771,18 @@
                                ]
                  },
                  {
+                     "official_name":  "Gold Atmosphere",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Secureworks",
+                                       "name":  "Gold Atmosphere"
+                                   }
+                               ]
+                 },
+                 {
                      "official_name":  "Gold Blazer",
                      "confidence":  "High",
                      "type":  "Organized Crime",
@@ -7803,6 +7863,18 @@
                                ]
                  },
                  {
+                     "official_name":  "Gold Encore",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Secureworks",
+                                       "name":  "Gold Encore"
+                                   }
+                               ]
+                 },
+                 {
                      "official_name":  "Gold Fairfax",
                      "confidence":  "High",
                      "type":  "Organized Crime",
@@ -7862,7 +7934,7 @@
                      "official_name":  "Gold Hawthorne",
                      "confidence":  "High",
                      "type":  "Organized Crime",
-                     "country":  "Unknown",
+                     "country":  "Worldwide",
                      "alias":  [
                                    {
                                        "entity":  "CrowdStrike",
@@ -7896,9 +7968,9 @@
                  },
                  {
                      "official_name":  "Gold Lagoon",
-                     "confidence":  "Mid",
+                     "confidence":  "High",
                      "type":  "Organized Crime",
-                     "country":  "Unknown",
+                     "country":  "Worldwide",
                      "alias":  [
                                    {
                                        "entity":  "CrowdStrike",
@@ -7920,9 +7992,9 @@
                  },
                  {
                      "official_name":  "Gold Mansard",
-                     "confidence":  "Mid",
+                     "confidence":  "High",
                      "type":  "Organized Crime",
-                     "country":  "Unknown",
+                     "country":  "Worldwide",
                      "alias":  [
                                    {
                                        "entity":  "CrowdStrike",
@@ -7956,9 +8028,9 @@
                  },
                  {
                      "official_name":  "Gold Northfield",
-                     "confidence":  "Mid",
+                     "confidence":  "High",
                      "type":  "Organized Crime",
-                     "country":  "Unknown",
+                     "country":  "Worldwide",
                      "alias":  [
                                    {
                                        "entity":  "Secureworks",
@@ -7984,9 +8056,9 @@
                  },
                  {
                      "official_name":  "Gold Riverview",
-                     "confidence":  "Mid",
+                     "confidence":  "High",
                      "type":  "Organized Crime",
-                     "country":  "Unknown",
+                     "country":  "Worldwide",
                      "alias":  [
                                    {
                                        "entity":  "CrowdStrike",
@@ -7995,6 +8067,18 @@
                                    {
                                        "entity":  "Secureworks",
                                        "name":  "Gold Riverview"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Gold Rococo",
+                     "confidence":  "High",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Secureworks",
+                                       "name":  "Gold Rococo"
                                    }
                                ]
                  },
@@ -8562,10 +8646,10 @@
                                ]
                  },
                  {
-                     "official_name":  "Tengyun-snake",
+                     "official_name":  "Tengyun-snake/Teng Snake/Genesis Day",
                      "confidence":  "Mid",
-                     "type":  "APT",
-                     "country":  "Unknown",
+                     "type":  "Hacktivists",
+                     "country":  "China",
                      "alias":  [
                                    {
                                        "entity":  "Tencent",
@@ -8574,6 +8658,10 @@
                                    {
                                        "entity":  "Qihoo 360",
                                        "name":  "APT-C-61"
+                                   },
+                                   {
+                                       "entity":  "Recorded Future",
+                                       "name":  "Xiaoqiying"
                                    }
                                ]
                  },
@@ -9002,6 +9090,10 @@
                                    {
                                        "entity":  "CERT-UA",
                                        "name":  "UAC-0056"
+                                   },
+                                   {
+                                       "entity":  "Google TAG",
+                                       "name":  "Frozenvista"
                                    }
                                ]
                  },
@@ -9256,7 +9348,7 @@
                                        "name":  "DEV-0401/Cinnamon Tempest"
                                    },
                                    {
-                                       "entity":  "RiskIQ",
+                                       "entity":  "Secureworks",
                                        "name":  "Bronze Starlight"
                                    }
                                ]
@@ -9284,7 +9376,7 @@
                                        "name":  "Hive0095"
                                    },
                                    {
-                                       "entity":  "RiskIQ",
+                                       "entity":  "Secureworks",
                                        "name":  "Cobalt Fireside"
                                    },
                                    {
@@ -9792,6 +9884,10 @@
                                    {
                                        "entity":  "Proofpoint",
                                        "name":  "TA578"
+                                   },
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Honey Spider"
                                    }
                                ]
                  },
@@ -10228,6 +10324,18 @@
                                ]
                  },
                  {
+                     "official_name":  "NoName",
+                     "confidence":  "Mid",
+                     "type":  "Hacktivists",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Sentinel one",
+                                       "name":  "NoName057(16)"
+                                   }
+                               ]
+                 },
+                 {
                      "official_name":  "CyberArmyOfRussia",
                      "confidence":  "High",
                      "type":  "Hacktivists",
@@ -10237,6 +10345,15 @@
                                        "entity":  "CERT-UA",
                                        "name":  " UAC-0107"
                                    }
+                               ]
+                 },
+                 {
+                     "official_name":  "1877 Team",
+                     "confidence":  "Mid",
+                     "type":  "Hacktivists",
+                     "country":  "Iraq",
+                     "alias":  [
+
                                ]
                  },
                  {
@@ -10449,6 +10566,22 @@
                                    {
                                        "entity":  "Secureworks",
                                        "name":  "Cobalt Agora"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Gold Lotus",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Mangled Spider"
+                                   },
+                                   {
+                                       "entity":  "Secureworks",
+                                       "name":  "Gold Lotus"
                                    }
                                ]
                  },
@@ -11420,6 +11553,114 @@
                                    {
                                        "entity":  "Kaspersky",
                                        "name":  "Bad magic"
+                                   },
+                                   {
+                                       "entity":  "Malwarebytes",
+                                       "name":  "RedStinger"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Volt Typhoon",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "China",
+                     "alias":  [
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Volt Typhoon"
+                                   },
+                                   {
+                                       "entity":  "Secureworks",
+                                       "name":  "Bronze Silhouette"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Earth Longzhi",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "China",
+                     "alias":  [
+                                   {
+                                       "entity":  "Trend Micro",
+                                       "name":  "Earth Longzhi"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "KyivWarrior",
+                     "confidence":  "Mid",
+                     "type":  "Unknown",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "Dragos",
+                                       "name":  "KyivWarrior"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Water Orthrus",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Trend Micro",
+                                       "name":  "Water Orthrus"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Distant Spider",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Distant Spider"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "BlueDelta",
+                     "confidence":  "Mid",
+                     "type":  "Unknown",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "Recorded Future",
+                                       "name":  "BlueDelta"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Sand Eagle",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "Kaspersky",
+                                       "name":  "Triangulation"
+                                   },
+                                   {
+                                       "entity":  "Qihoo 360",
+                                       "name":  "APT-C-63"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Bouncing Golf",
+                     "confidence":  "Mid",
+                     "type":  "Mercenary",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "Trend Micro",
+                                       "name":  "Bouncing Golf"
                                    }
                                ]
                  }
