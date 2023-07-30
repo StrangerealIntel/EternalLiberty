@@ -1,6 +1,6 @@
 {
     "name":  "EternalLiberty",
-    "author":  [
+    "authors":  [
                    "Arkbird_SOLG",
                    "BushidoToken"
                ],
@@ -150,7 +150,7 @@
                                    },
                                    {
                                        "entity":  "Symantec",
-                                       "name":  "Calcium"
+                                       "name":  "Calcium/Coreid"
                                    },
                                    {
                                        "entity":  "Qihoo 360",
@@ -187,6 +187,10 @@
                                    {
                                        "entity":  "Thales",
                                        "name":  "ATK113"
+                                   },
+                                   {
+                                       "entity":  "Symantec",
+                                       "name":  "Syssphinx"
                                    }
                                ]
                  },
@@ -434,7 +438,7 @@
                                    },
                                    {
                                        "entity":  "CERT-UA",
-                                       "name":  "UAC-0051/UAC-0064/UAC-0105"
+                                       "name":  "UAC-0057/UAC-0051/UAC-0105"
                                    },
                                    {
                                        "entity":  "Google TAG",
@@ -533,6 +537,10 @@
                      "country":  "Ukraine",
                      "alias":  [
                                    {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC3443"
+                                   },
+                                   {
                                        "entity":  "Proofpoint",
                                        "name":  "TA542"
                                    },
@@ -602,8 +610,12 @@
                      "official_name":  "TA551",
                      "confidence":  "High",
                      "type":  "Organized Crime",
-                     "country":  "Unknown",
+                     "country":  "Worldwide",
                      "alias":  [
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC2198/UNC2374/UNC2414/UNC2420"
+                                   },
                                    {
                                        "entity":  "Proofpoint",
                                        "name":  "TA551"
@@ -700,7 +712,7 @@
                  },
                  {
                      "official_name":  "TA569",
-                     "confidence":  "Mid",
+                     "confidence":  "High",
                      "type":  "Organized Crime",
                      "country":  "Unknown",
                      "alias":  [
@@ -728,6 +740,10 @@
                      "type":  "Organized Crime",
                      "country":  "Unknown",
                      "alias":  [
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC2633"
+                                   },
                                    {
                                        "entity":  "Proofpoint",
                                        "name":  "TA570"
@@ -777,6 +793,10 @@
                      "country":  "Russia",
                      "alias":  [
                                    {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC2500"
+                                   },
+                                   {
                                        "entity":  "Proofpoint",
                                        "name":  "TA577"
                                    },
@@ -790,7 +810,7 @@
                      "official_name":  "TA800",
                      "confidence":  "Mid",
                      "type":  "Organized Crime",
-                     "country":  "Unknown",
+                     "country":  "Worldwide",
                      "alias":  [
                                    {
                                        "entity":  "Proofpoint",
@@ -994,34 +1014,34 @@
                                    },
                                    {
                                        "entity":  "CrowdStrike",
-                                       "name":  "\"Keyhole Panda/"
-                                   }
-                               ]
-                 },
-                 {
-                     "official_name":  "Pitty Panda\"",
-                     "confidence":  "Manganese/Mulberry Typhoon",
-                     "type":  "G0011",
-                     "country":  "",
-                     "alias":  [
+                                       "name":  "\"Keyhole Panda/Pitty Panda\""
+                                   },
                                    {
-                                       "entity":  "Proofpoint",
+                                       "entity":  "Microsoft",
+                                       "name":  "Manganese/Mulberry Typhoon"
+                                   },
+                                   {
+                                       "entity":  "MITRE",
+                                       "name":  "G0011"
+                                   },
+                                   {
+                                       "entity":  "Secureworks",
                                        "name":  "Bronze Fleetwood"
                                    },
                                    {
-                                       "entity":  "Kaspersky",
+                                       "entity":  "SCWX CTU",
                                        "name":  "TG-2754"
                                    },
                                    {
-                                       "entity":  "Thales",
+                                       "entity":  "McAfee/Trellix",
                                        "name":  "PittyTiger"
                                    },
                                    {
-                                       "entity":  "Yoroi",
+                                       "entity":  "Palo Alto",
                                        "name":  "DPD"
                                    },
                                    {
-                                       "entity":  "Thalos",
+                                       "entity":  "iSight",
                                        "name":  "Temp.Bottle"
                                    }
                                ]
@@ -1462,7 +1482,7 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "APT23/Temp.Hex"
+                                       "name":  "APT23/Temp.Hex/UNC53/UNC4191"
                                    },
                                    {
                                        "entity":  "Proofpoint",
@@ -1602,7 +1622,7 @@
                                    },
                                    {
                                        "entity":  "Proofpoint",
-                                       "name":  "TA422"
+                                       "name":  "TA422/BlueDelta"
                                    },
                                    {
                                        "entity":  "Kaspersky",
@@ -1702,7 +1722,7 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "APT29"
+                                       "name":  "APT29/UNC3524"
                                    },
                                    {
                                        "entity":  "Proofpoint",
@@ -2222,7 +2242,7 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "APT38"
+                                       "name":  "APT38/UNC1758/UNC1069/UNC4736"
                                    },
                                    {
                                        "entity":  "Proofpoint",
@@ -2463,6 +2483,10 @@
                                    {
                                        "entity":  "Mandiant/FireEye",
                                        "name":  "APT42"
+                                   },
+                                   {
+                                       "entity":  "Proofpoint",
+                                       "name":  "TA453"
                                    },
                                    {
                                        "entity":  "Recorded Future",
@@ -4139,7 +4163,7 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "APT43"
+                                       "name":  "UNC1130/UNC3782/UNC4469/APT43"
                                    },
                                    {
                                        "entity":  "Proofpoint",
@@ -4185,6 +4209,10 @@
                      "type":  "APT",
                      "country":  "North Korea",
                      "alias":  [
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC577/UNC2970/UNC4131/UNC4369/TEMP.Hermit"
+                                   },
                                    {
                                        "entity":  "CrowdStrike",
                                        "name":  "Silent Chollima"
@@ -4828,6 +4856,42 @@
                                ]
                  },
                  {
+                     "official_name":  "TG-8288",
+                     "confidence":  "Unknown",
+                     "type":  "APT",
+                     "country":  "Iran",
+                     "alias":  [
+                                   {
+                                       "entity":  "SCWX CTU",
+                                       "name":  "TG-8288"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "TG-6529",
+                     "confidence":  "Unknown",
+                     "type":  "APT",
+                     "country":  "Ukraine",
+                     "alias":  [
+                                   {
+                                       "entity":  "SCWX CTU",
+                                       "name":  "TG-6529"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "TG-0919",
+                     "confidence":  "Unknown",
+                     "type":  "APT",
+                     "country":  "United Arab Emirates",
+                     "alias":  [
+                                   {
+                                       "entity":  "SCWX CTU",
+                                       "name":  "TG-0919"
+                                   }
+                               ]
+                 },
+                 {
                      "official_name":  "Red Signature",
                      "confidence":  "High",
                      "type":  "APT",
@@ -5256,7 +5320,7 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "Temp.Noble/UNC3715"
+                                       "name":  "Temp.Noble/UNC3715/UNC3810"
                                    },
                                    {
                                        "entity":  "Kaspersky",
@@ -5571,18 +5635,6 @@
                                    {
                                        "entity":  "Reuters",
                                        "name":  "Project Raven"
-                                   }
-                               ]
-                 },
-                 {
-                     "official_name":  "TEMP.Hermit",
-                     "confidence":  "Mid",
-                     "type":  "APT",
-                     "country":  "North Korea",
-                     "alias":  [
-                                   {
-                                       "entity":  "Mandiant/FireEye",
-                                       "name":  "UNC577/UNC2970/TEMP.Hermit"
                                    }
                                ]
                  },
@@ -7232,13 +7284,37 @@
                  },
                  {
                      "official_name":  "UNC3886",
-                     "confidence":  "Low",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC3886"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "UNC3151",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC3151"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "ESXiArgs",
+                     "confidence":  "Mid",
                      "type":  "Organized Crime",
                      "country":  "Unknown",
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "UNC3886"
+                                       "name":  "UNC4586"
                                    }
                                ]
                  },
@@ -7446,8 +7522,12 @@
                      "official_name":  "Anonymous",
                      "confidence":  "High",
                      "type":  "Hacktivists",
-                     "country":  "Argentina",
+                     "country":  "Worldwide",
                      "alias":  [
+                                   {
+                                       "entity":  "Secureworks",
+                                       "name":  "TG-2633/TG-2768"
+                                   },
                                    {
                                        "entity":  "PWC",
                                        "name":  " Grey Ares"
@@ -7642,6 +7722,26 @@
                                    {
                                        "entity":  "Palo Alto",
                                        "name":  "SilverTerrier"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Yahoo Boys",
+                     "confidence":  "High",
+                     "type":  "Business Email Compromise",
+                     "country":  "Nigeria",
+                     "alias":  [
+                                   {
+                                       "entity":  "Secureworks",
+                                       "name":  "Wire-Wire Group 1"
+                                   },
+                                   {
+                                       "entity":  "SCWX CTU",
+                                       "name":  "TG-2798"
+                                   },
+                                   {
+                                       "entity":  "Palo Alto",
+                                       "name":  "Ojie Victor"
                                    }
                                ]
                  },
@@ -8134,7 +8234,7 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "UNC1756"
+                                       "name":  "UNC1756/UNC2727"
                                    },
                                    {
                                        "entity":  "CrowdStrike",
@@ -8310,17 +8410,8 @@
                                    },
                                    {
                                        "entity":  "PWC",
-                                       "name":  "\"White Dev"
+                                       "name":  "\"White Dev 111\""
                                    }
-                               ]
-                 },
-                 {
-                     "official_name":  "111\"",
-                     "confidence":  "",
-                     "type":  "",
-                     "country":  "",
-                     "alias":  [
-
                                ]
                  },
                  {
@@ -8550,18 +8641,6 @@
                                    {
                                        "entity":  "Mandiant/FireEye",
                                        "name":  "UNC2447"
-                                   }
-                               ]
-                 },
-                 {
-                     "official_name":  "UNC1878",
-                     "confidence":  "Mid",
-                     "type":  "Organized Crime",
-                     "country":  "Russia",
-                     "alias":  [
-                                   {
-                                       "entity":  "Mandiant/FireEye",
-                                       "name":  "UNC1878"
                                    }
                                ]
                  },
@@ -8810,6 +8889,18 @@
                                ]
                  },
                  {
+                     "official_name":  "UNC3890",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "Iran",
+                     "alias":  [
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC3890"
+                                   }
+                               ]
+                 },
+                 {
                      "official_name":  "DEV-0343",
                      "confidence":  "Mid",
                      "type":  "APT",
@@ -9039,10 +9130,14 @@
                  },
                  {
                      "official_name":  "TG-1314",
-                     "confidence":  "Low",
+                     "confidence":  "Mid",
                      "type":  "Unknown",
                      "country":  "Unknown",
                      "alias":  [
+                                   {
+                                       "entity":  "MITRE",
+                                       "name":  "G0028"
+                                   },
                                    {
                                        "entity":  "Secureworks",
                                        "name":  "TG-1314"
@@ -9170,6 +9265,30 @@
                                ]
                  },
                  {
+                     "official_name":  "UAC-0006",
+                     "confidence":  "Mid",
+                     "type":  "Unknown",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "CERT-UA",
+                                       "name":  "UAC-0006"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "UAC-0050",
+                     "confidence":  "Mid",
+                     "type":  "Unknown",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "CERT-UA",
+                                       "name":  "UAC-0050"
+                                   }
+                               ]
+                 },
+                 {
                      "official_name":  "UAC-0088",
                      "confidence":  "Low",
                      "type":  "Unknown",
@@ -9210,6 +9329,18 @@
                                ]
                  },
                  {
+                     "official_name":  "UAC-0063",
+                     "confidence":  "Mid",
+                     "type":  "Unknown",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "CERT-UA",
+                                       "name":  "UAC-0063"
+                                   }
+                               ]
+                 },
+                 {
                      "official_name":  "UAC-0086",
                      "confidence":  "Low",
                      "type":  "Unknown",
@@ -9234,6 +9365,18 @@
                                ]
                  },
                  {
+                     "official_name":  "UAC-0096",
+                     "confidence":  "Mid",
+                     "type":  "Unknown",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "CERT-UA",
+                                       "name":  "UAC-0096"
+                                   }
+                               ]
+                 },
+                 {
                      "official_name":  "UAC-0100",
                      "confidence":  "Mid",
                      "type":  "Organized Crime",
@@ -9242,6 +9385,42 @@
                                    {
                                        "entity":  "CERT-UA",
                                        "name":  "UAC-0100"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "UAC-0101",
+                     "confidence":  "Mid",
+                     "type":  "Unknown",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "CERT-UA",
+                                       "name":  "UAC-0101"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "UAC-0102",
+                     "confidence":  "Mid",
+                     "type":  "Unknown",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "CERT-UA",
+                                       "name":  "UAC-0102"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "UAC-0104",
+                     "confidence":  "Mid",
+                     "type":  "Unknown",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "CERT-UA",
+                                       "name":  "UAC-0104"
                                    }
                                ]
                  },
@@ -9728,18 +9907,122 @@
                                ]
                  },
                  {
-                     "official_name":  "UNC3524",
+                     "official_name":  "UNC3512",
                      "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC3512"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "UNC2975",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC2975"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "UNC2824",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC2824"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "UNC2835",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC2835"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "UNC4393",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC4393"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "UNC3347",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "China",
+                     "alias":  [
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC3347"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "UNC3784",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "China",
+                     "alias":  [
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC3784"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "UNC3819",
+                     "confidence":  "Low",
                      "type":  "APT",
                      "country":  "Unknown",
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "UNC3524"
-                                   },
+                                       "name":  "UNC3819"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "UNC3905",
+                     "confidence":  "Low",
+                     "type":  "Organized Crime",
+                     "country":  "Russia",
+                     "alias":  [
                                    {
-                                       "entity":  "Symantec",
-                                       "name":  "Cranefly"
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC3905"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "UNC3711",
+                     "confidence":  "Low",
+                     "type":  "APT",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC3711"
                                    }
                                ]
                  },
@@ -10124,11 +10407,15 @@
                                ]
                  },
                  {
-                     "official_name":  "UAC-0142",
-                     "confidence":  "Mid",
+                     "official_name":  "Void Rabisu",
+                     "confidence":  "High",
                      "type":  "Organized Crime",
                      "country":  "Worldwide",
                      "alias":  [
+                                   {
+                                       "entity":  "Trend Micro",
+                                       "name":  "Void Rabisu"
+                                   },
                                    {
                                        "entity":  "CERT-UA",
                                        "name":  "UAC-0142"
@@ -10149,7 +10436,7 @@
                  },
                  {
                      "official_name":  "UAC-0133",
-                     "confidence":  "Low",
+                     "confidence":  "Mid",
                      "type":  "Unknown",
                      "country":  "Unknown",
                      "alias":  [
@@ -10161,7 +10448,7 @@
                  },
                  {
                      "official_name":  "UAC-0119",
-                     "confidence":  "Low",
+                     "confidence":  "Mid",
                      "type":  "Unknown",
                      "country":  "Unknown",
                      "alias":  [
@@ -10173,13 +10460,49 @@
                  },
                  {
                      "official_name":  "UAC-0120",
-                     "confidence":  "Low",
+                     "confidence":  "Mid",
                      "type":  "Unknown",
                      "country":  "Unknown",
                      "alias":  [
                                    {
                                        "entity":  "CERT-UA",
                                        "name":  "UAC-0120"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "UAC-0145",
+                     "confidence":  "Mid",
+                     "type":  "Unknown",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "CERT-UA",
+                                       "name":  "UAC-0145"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "UAC-0099",
+                     "confidence":  "Mid",
+                     "type":  "Unknown",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "CERT-UA",
+                                       "name":  "UAC-0099"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "UAC-0168",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "CERT-UA",
+                                       "name":  "UAC-0168"
                                    }
                                ]
                  },
@@ -10357,7 +10680,7 @@
                                ]
                  },
                  {
-                     "official_name":  "DEV-0586",
+                     "official_name":  "Cadet Blizzard",
                      "confidence":  "High",
                      "type":  "Hacktivists",
                      "country":  "Russia",
@@ -10369,6 +10692,30 @@
                                    {
                                        "entity":  "Palo Alto",
                                        "name":  "Ruinous Ursa"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "GhostSec",
+                     "confidence":  "Mid",
+                     "type":  "Hacktivists",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "GhostSec"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "SiegedSec",
+                     "confidence":  "Mid",
+                     "type":  "Hacktivists",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "SiegedSec"
                                    }
                                ]
                  },
@@ -10413,18 +10760,6 @@
                                ]
                  },
                  {
-                     "official_name":  "UNC2198",
-                     "confidence":  "Mid",
-                     "type":  "Organized Crime",
-                     "country":  "Unknown",
-                     "alias":  [
-                                   {
-                                       "entity":  "Mandiant/FireEye",
-                                       "name":  "UNC2198"
-                                   }
-                               ]
-                 },
-                 {
                      "official_name":  "UNC2374",
                      "confidence":  "Mid",
                      "type":  "Organized Crime",
@@ -10438,7 +10773,7 @@
                  },
                  {
                      "official_name":  "UNC2414",
-                     "confidence":  "Low",
+                     "confidence":  "Mid",
                      "type":  "Organized Crime",
                      "country":  "Unknown",
                      "alias":  [
@@ -10469,18 +10804,6 @@
                                    {
                                        "entity":  "Mandiant/FireEye",
                                        "name":  "UNC2903"
-                                   }
-                               ]
-                 },
-                 {
-                     "official_name":  "UNC3313",
-                     "confidence":  "Mid",
-                     "type":  "APT",
-                     "country":  "Iran",
-                     "alias":  [
-                                   {
-                                       "entity":  "Mandiant/FireEye",
-                                       "name":  "UNC3313"
                                    }
                                ]
                  },
@@ -10517,6 +10840,42 @@
                                    {
                                        "entity":  "Mandiant/FireEye",
                                        "name":  "UNC2546"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "UNC3016",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC3016"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "UNC3762",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "Russia",
+                     "alias":  [
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC3762"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "UNC3973",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC3973"
                                    }
                                ]
                  },
@@ -10766,6 +11125,22 @@
                                    {
                                        "entity":  "Secureworks",
                                        "name":  "Gold Victor"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Raspberry Robin",
+                     "confidence":  "High",
+                     "type":  "Organized Crime",
+                     "country":  "",
+                     "alias":  [
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC3840"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0856"
                                    }
                                ]
                  },
@@ -11139,8 +11514,16 @@
                      "country":  "Iran",
                      "alias":  [
                                    {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC4368"
+                                   },
+                                   {
                                        "entity":  "Checkpoint",
                                        "name":  "Indra"
+                                   },
+                                   {
+                                       "entity":  "Reuters",
+                                       "name":  "Gonjeshke Darande"
                                    },
                                    {
                                        "entity":  "Sentinel one",
@@ -11408,7 +11791,7 @@
                  },
                  {
                      "official_name":  "False Hunter",
-                     "confidence":  "Low",
+                     "confidence":  "Mid",
                      "type":  "APT",
                      "country":  "Unknown",
                      "alias":  [
@@ -11534,7 +11917,7 @@
                  },
                  {
                      "official_name":  "YoroTrooper",
-                     "confidence":  "Low",
+                     "confidence":  "Mid",
                      "type":  "APT",
                      "country":  "Unknown",
                      "alias":  [
@@ -11546,8 +11929,8 @@
                  },
                  {
                      "official_name":  "Bad magic",
-                     "confidence":  "Low",
-                     "type":  "Unknown",
+                     "confidence":  "Mid",
+                     "type":  "APT",
                      "country":  "Unknown",
                      "alias":  [
                                    {
@@ -11625,18 +12008,6 @@
                                ]
                  },
                  {
-                     "official_name":  "BlueDelta",
-                     "confidence":  "Mid",
-                     "type":  "Unknown",
-                     "country":  "Unknown",
-                     "alias":  [
-                                   {
-                                       "entity":  "Recorded Future",
-                                       "name":  "BlueDelta"
-                                   }
-                               ]
-                 },
-                 {
                      "official_name":  "Sand Eagle",
                      "confidence":  "Mid",
                      "type":  "APT",
@@ -11656,11 +12027,43 @@
                      "official_name":  "Bouncing Golf",
                      "confidence":  "Mid",
                      "type":  "Mercenary",
-                     "country":  "Unknown",
+                     "country":  "Worldwide",
                      "alias":  [
                                    {
                                        "entity":  "Trend Micro",
                                        "name":  "Bouncing Golf"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Asylum Ambuscade",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "Belarus",
+                     "alias":  [
+                                   {
+                                       "entity":  "Proofpoint",
+                                       "name":  "TA866"
+                                   },
+                                   {
+                                       "entity":  "ESET",
+                                       "name":  "Asylum Ambuscade"
+                                   },
+                                   {
+                                       "entity":  "CERT-UA",
+                                       "name":  "UAC-0064"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Storm-0558",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "China",
+                     "alias":  [
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Storm-0558"
                                    }
                                ]
                  }
