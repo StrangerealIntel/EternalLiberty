@@ -267,34 +267,30 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "\"FIN12/TEMP.MixMaster/UNC1878"
+                                       "name":  "FIN12/TEMP.MixMaster/UNC1878"
                                    },
                                    {
-                                       "entity":  "Proofpoint",
-                                       "name":  "UNC2053\""
-                                   },
-                                   {
-                                       "entity":  "Microsoft",
+                                       "entity":  "CrowdStrike",
                                        "name":  "Wizard Spider"
                                    },
                                    {
-                                       "entity":  "MITRE",
+                                       "entity":  "Microsoft",
                                        "name":  "DEV-0193/Periwinkle Tempest/DEV-0237/Pistachio Tempest"
                                    },
                                    {
-                                       "entity":  "IBM",
+                                       "entity":  "MITRE",
                                        "name":  "G0102"
                                    },
                                    {
-                                       "entity":  "RiskIQ",
+                                       "entity":  "IBM",
                                        "name":  "ITG23"
                                    },
                                    {
-                                       "entity":  "SCWX CTU",
+                                       "entity":  "Secureworks",
                                        "name":  "Gold Blackburn"
                                    },
                                    {
-                                       "entity":  "Thales",
+                                       "entity":  "PWC",
                                        "name":  "White Magician"
                                    }
                                ]
@@ -303,19 +299,19 @@
                      "official_name":  "FIN13",
                      "confidence":  "High",
                      "type":  "Organized Crime",
-                     "country":  "Russia",
+                     "country":  "Mexico",
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
                                        "name":  "FIN13"
                                    },
                                    {
-                                       "entity":  "CrowdStrike",
-                                       "name":  "Elephant Beetle"
-                                   },
-                                   {
                                        "entity":  "SCWX CTU",
                                        "name":  "TG2003"
+                                   },
+                                   {
+                                       "entity":  "Sygnia",
+                                       "name":  "Elephant Beetle"
                                    }
                                ]
                  },
@@ -1015,7 +1011,7 @@
                                    },
                                    {
                                        "entity":  "CrowdStrike",
-                                       "name":  "\"Keyhole Panda/Pitty Panda\""
+                                       "name":  "Keyhole Panda/Pitty Panda"
                                    },
                                    {
                                        "entity":  "Microsoft",
@@ -8411,7 +8407,7 @@
                                    },
                                    {
                                        "entity":  "PWC",
-                                       "name":  "\"White Dev 111\""
+                                       "name":  "White Dev 111"
                                    }
                                ]
                  },
@@ -8994,18 +8990,6 @@
                                    {
                                        "entity":  "PWC",
                                        "name":  "White Dev 95"
-                                   }
-                               ]
-                 },
-                 {
-                     "official_name":  "Elephant Beetle",
-                     "confidence":  "Mid",
-                     "type":  "Organized Crime",
-                     "country":  "Latin America",
-                     "alias":  [
-                                   {
-                                       "entity":  "SCWX CTU",
-                                       "name":  "TG2003"
                                    }
                                ]
                  },
@@ -10024,6 +10008,18 @@
                                    {
                                        "entity":  "Mandiant/FireEye",
                                        "name":  "UNC3711"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "UNC2053",
+                     "confidence":  "High",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC2053"
                                    }
                                ]
                  },
@@ -12065,6 +12061,18 @@
                                    {
                                        "entity":  "Microsoft",
                                        "name":  "Storm-0558"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "MoustachedBouncer",
+                     "confidence":  "Low",
+                     "type":  "APT",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "ESET",
+                                       "name":  "MoustachedBouncer"
                                    }
                                ]
                  }
