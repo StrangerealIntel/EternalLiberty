@@ -1,11 +1,11 @@
 {
     "name":  "EternalLiberty",
-    "authors":  [
+    "author":  [
                    "Arkbird_SOLG",
                    "BushidoToken",
                    "Faisalusuf"
                ],
-    "version":  "1.022",
+    "version":  "1.1",
     "data":  [
                  {
                      "official_name":  "FIN1",
@@ -71,7 +71,11 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Taal/Camouflage Tempest"
+                                       "name":  "Taal"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Camouflage Tempest"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -123,7 +127,11 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Elbrus/Sangria Tempest"
+                                       "name":  "Elbrus"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Sangria Tempest"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -151,7 +159,11 @@
                                    },
                                    {
                                        "entity":  "Symantec",
-                                       "name":  "Calcium/Coreid"
+                                       "name":  "Calcium"
+                                   },
+                                   {
+                                       "entity":  "Symantec",
+                                       "name":  "Coreid"
                                    },
                                    {
                                        "entity":  "Qihoo 360",
@@ -219,7 +231,15 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "UNC902/FIN11/Temp.Warlock"
+                                       "name":  "UNC902"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "FIN11"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "Temp.Warlock"
                                    },
                                    {
                                        "entity":  "Proofpoint",
@@ -231,7 +251,19 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0950/Chimborazo/Spandex Tempest/Lace Tempest"
+                                       "name":  "DEV-0950"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Chimborazo"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Spandex Tempest"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Lace Tempest"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -267,7 +299,15 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "FIN12/TEMP.MixMaster/UNC1878"
+                                       "name":  "FIN12"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "TEMP.MixMaster"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC1878"
                                    },
                                    {
                                        "entity":  "CrowdStrike",
@@ -275,7 +315,19 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0193/Periwinkle Tempest/DEV-0237/Pistachio Tempest"
+                                       "name":  "DEV-0193"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Periwinkle Tempest"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0237"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Pistachio Tempest"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -304,6 +356,10 @@
                                    {
                                        "entity":  "Mandiant/FireEye",
                                        "name":  "FIN13"
+                                   },
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Squab Spider"
                                    },
                                    {
                                        "entity":  "SCWX CTU",
@@ -423,7 +479,11 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0257/Storm-0257"
+                                       "name":  "DEV-0257"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Storm-0257"
                                    },
                                    {
                                        "entity":  "Secureworks",
@@ -435,11 +495,23 @@
                                    },
                                    {
                                        "entity":  "CERT-UA",
-                                       "name":  "UAC-0057/UAC-0051/UAC-0105"
+                                       "name":  "UAC-0057"
+                                   },
+                                   {
+                                       "entity":  "CERT-UA",
+                                       "name":  "UAC-0051"
+                                   },
+                                   {
+                                       "entity":  "CERT-UA",
+                                       "name":  "UAC-0105"
                                    },
                                    {
                                        "entity":  "Google TAG",
-                                       "name":  "Ghostwriter/Pushcha"
+                                       "name":  "Ghostwriter"
+                                   },
+                                   {
+                                       "entity":  "Google TAG",
+                                       "name":  "Pushcha"
                                    }
                                ]
                  },
@@ -487,7 +559,15 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0243/Dudear/Manatee Tempest"
+                                       "name":  "DEV-0243"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Dudear"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Manatee Tempest"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -611,7 +691,19 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "UNC2198/UNC2374/UNC2414/UNC2420"
+                                       "name":  "UNC2198"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC2374"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC2414"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC2420"
                                    },
                                    {
                                        "entity":  "Proofpoint",
@@ -723,7 +815,11 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0206/Mustard Tempest"
+                                       "name":  "DEV-0206"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Mustard Tempest"
                                    },
                                    {
                                        "entity":  "Secureworks",
@@ -1003,7 +1099,11 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "APT5/UNC2630"
+                                       "name":  "APT5"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC2630"
                                    },
                                    {
                                        "entity":  "Kaspersky",
@@ -1011,11 +1111,19 @@
                                    },
                                    {
                                        "entity":  "CrowdStrike",
-                                       "name":  "Keyhole Panda/Pitty Panda"
+                                       "name":  "Keyhole Panda"
+                                   },
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Pitty Panda"
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Manganese/Mulberry Typhoon"
+                                       "name":  "Manganese"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Mulberry Typhoon"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -1091,7 +1199,11 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "Happyyongzi/MenuPass"
+                                       "name":  "Happyyongzi"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "MenuPass"
                                    },
                                    {
                                        "entity":  "Proofpoint",
@@ -1155,7 +1267,11 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "APT12/BeeBus"
+                                       "name":  "APT12"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "BeeBus"
                                    },
                                    {
                                        "entity":  "CrowdStrike",
@@ -1175,7 +1291,15 @@
                                    },
                                    {
                                        "entity":  "Symantec",
-                                       "name":  "Calc Team/DynCALC/DNSCalc"
+                                       "name":  "Calc Team"
+                                   },
+                                   {
+                                       "entity":  "Symantec",
+                                       "name":  "DynCALC"
+                                   },
+                                   {
+                                       "entity":  "Symantec",
+                                       "name":  "DNSCalc"
                                    },
                                    {
                                        "entity":  "ThreatConnect",
@@ -1215,7 +1339,11 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "Ke3chang/Playful Dragon"
+                                       "name":  "Ke3chang"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "Playful Dragon"
                                    },
                                    {
                                        "entity":  "CrowdStrike",
@@ -1223,7 +1351,11 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Nickel/Nylon Typhoon"
+                                       "name":  "Nickel"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Nylon Typhoon"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -1235,11 +1367,23 @@
                                    },
                                    {
                                        "entity":  "Secureworks",
-                                       "name":  "Gref/Bronze Palace"
+                                       "name":  "Gref"
+                                   },
+                                   {
+                                       "entity":  "Secureworks",
+                                       "name":  "Bronze Palace"
                                    },
                                    {
                                        "entity":  "SCWX CTU",
-                                       "name":  "Bronze Davenport/Bronze Idlewood/CTG-9246"
+                                       "name":  "Bronze Davenport"
+                                   },
+                                   {
+                                       "entity":  "SCWX CTU",
+                                       "name":  "Bronze Idlewood"
+                                   },
+                                   {
+                                       "entity":  "SCWX CTU",
+                                       "name":  "CTG-9246"
                                    },
                                    {
                                        "entity":  "PWC",
@@ -1287,11 +1431,19 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "Temp.Avengers/DeputyDog"
+                                       "name":  "Temp.Avengers"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "DeputyDog"
                                    },
                                    {
                                        "entity":  "CrowdStrike",
-                                       "name":  "Sneaky Panda/Aurora Panda"
+                                       "name":  "Sneaky Panda"
+                                   },
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Aurora Panda"
                                    },
                                    {
                                        "entity":  "Microsoft",
@@ -1299,7 +1451,11 @@
                                    },
                                    {
                                        "entity":  "MITRE",
-                                       "name":  "G0025/G0066"
+                                       "name":  "G0025"
+                                   },
+                                   {
+                                       "entity":  "MITRE",
+                                       "name":  "G0066"
                                    },
                                    {
                                        "entity":  "Secureworks",
@@ -1315,7 +1471,15 @@
                                    },
                                    {
                                        "entity":  "Symantec",
-                                       "name":  "Elderwood/Tailgater Team/Hidden Lynx"
+                                       "name":  "Elderwood"
+                                   },
+                                   {
+                                       "entity":  "Symantec",
+                                       "name":  "Tailgater Team"
+                                   },
+                                   {
+                                       "entity":  "Symantec",
+                                       "name":  "Hidden Lynx"
                                    },
                                    {
                                        "entity":  "Thalos",
@@ -1375,11 +1539,19 @@
                                    },
                                    {
                                        "entity":  "CrowdStrike",
-                                       "name":  "Deep Panda/C0d0s0"
+                                       "name":  "Deep Panda"
+                                   },
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "C0d0s0"
                                    },
                                    {
                                        "entity":  "MITRE",
-                                       "name":  "G0009/G0073"
+                                       "name":  "G0009"
+                                   },
+                                   {
+                                       "entity":  "MITRE",
+                                       "name":  "G0073"
                                    },
                                    {
                                        "entity":  "Secureworks",
@@ -1415,7 +1587,11 @@
                                    },
                                    {
                                        "entity":  "Palo Alto",
-                                       "name":  "TH3Bug/Crawling Taurus"
+                                       "name":  "TH3Bug"
+                                   },
+                                   {
+                                       "entity":  "Palo Alto",
+                                       "name":  "Crawling Taurus"
                                    }
                                ]
                  },
@@ -1455,7 +1631,11 @@
                                    },
                                    {
                                        "entity":  "Secureworks",
-                                       "name":  "Bronze Olive/Bronze Export"
+                                       "name":  "Bronze Olive"
+                                   },
+                                   {
+                                       "entity":  "Secureworks",
+                                       "name":  "Bronze Export"
                                    },
                                    {
                                        "entity":  "SCWX CTU",
@@ -1479,7 +1659,19 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "APT23/Temp.Hex/UNC53/UNC4191"
+                                       "name":  "APT23"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "Temp.Hex"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC53"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC4191"
                                    },
                                    {
                                        "entity":  "Proofpoint",
@@ -1487,7 +1679,11 @@
                                    },
                                    {
                                        "entity":  "CrowdStrike",
-                                       "name":  "Pirate Panda/Vicious Panda"
+                                       "name":  "Pirate Panda"
+                                   },
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Vicious Panda"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -1495,7 +1691,11 @@
                                    },
                                    {
                                        "entity":  "Secureworks",
-                                       "name":  "Bronze Hobart/Bronze Dudley"
+                                       "name":  "Bronze Hobart"
+                                   },
+                                   {
+                                       "entity":  "Secureworks",
+                                       "name":  "Bronze Dudley"
                                    },
                                    {
                                        "entity":  "PWC",
@@ -1543,7 +1743,11 @@
                                    },
                                    {
                                        "entity":  "RSA",
-                                       "name":  "Shell Crew/PinkPanther"
+                                       "name":  "Shell Crew"
+                                   },
+                                   {
+                                       "entity":  "RSA",
+                                       "name":  "PinkPanther"
                                    }
                                ]
                  },
@@ -1555,7 +1759,15 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "APT27/Temp.Hippo/UNC215"
+                                       "name":  "APT27"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "Temp.Hippo"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC215"
                                    },
                                    {
                                        "entity":  "Kaspersky",
@@ -1619,7 +1831,11 @@
                                    },
                                    {
                                        "entity":  "Proofpoint",
-                                       "name":  "TA422/BlueDelta"
+                                       "name":  "TA422"
+                                   },
+                                   {
+                                       "entity":  "Proofpoint",
+                                       "name":  "BlueDelta"
                                    },
                                    {
                                        "entity":  "Kaspersky",
@@ -1631,7 +1847,11 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Strontium/Forest Blizzard"
+                                       "name":  "Strontium"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Forest Blizzard"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -1719,7 +1939,11 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "APT29/UNC3524"
+                                       "name":  "APT29"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC3524"
                                    },
                                    {
                                        "entity":  "Proofpoint",
@@ -1803,11 +2027,19 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Radium/Raspberry Typhoon"
+                                       "name":  "Radium"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Raspberry Typhoon"
                                    },
                                    {
                                        "entity":  "MITRE",
-                                       "name":  "G0019/G0013"
+                                       "name":  "G0019"
+                                   },
+                                   {
+                                       "entity":  "MITRE",
+                                       "name":  "G0013"
                                    },
                                    {
                                        "entity":  "IBM",
@@ -1819,7 +2051,11 @@
                                    },
                                    {
                                        "entity":  "SCWX CTU",
-                                       "name":  "Bronze Sterling/CTG-5326"
+                                       "name":  "Bronze Sterling"
+                                   },
+                                   {
+                                       "entity":  "SCWX CTU",
+                                       "name":  "CTG-5326"
                                    }
                                ]
                  },
@@ -1839,7 +2075,11 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Zirconium/Violet Typhoon"
+                                       "name":  "Zirconium"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Violet Typhoon"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -1871,7 +2111,11 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Bismuth/Canvas Cyclone"
+                                       "name":  "Bismuth"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Canvas Cyclone"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -1931,7 +2175,11 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Holmium/Peach Sandstorm"
+                                       "name":  "Holmium"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Peach Sandstorm"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -1983,15 +2231,27 @@
                                    },
                                    {
                                        "entity":  "CrowdStrike",
-                                       "name":  "Helix Kitten/Twisted Kitten"
+                                       "name":  "Helix Kitten"
+                                   },
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Twisted Kitten"
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Europium/Hazel Sandstorm"
+                                       "name":  "Europium"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Hazel Sandstorm"
                                    },
                                    {
                                        "entity":  "MITRE",
-                                       "name":  "G0049/G0116"
+                                       "name":  "G0049"
+                                   },
+                                   {
+                                       "entity":  "MITRE",
+                                       "name":  "G0116"
                                    },
                                    {
                                        "entity":  "IBM",
@@ -2039,7 +2299,11 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "Temp.Beanie/UNC788"
+                                       "name":  "Temp.Beanie"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC788"
                                    },
                                    {
                                        "entity":  "Proofpoint",
@@ -2055,11 +2319,19 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Phosphorus/Mint Sandstorm"
+                                       "name":  "Phosphorus"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Mint Sandstorm"
                                    },
                                    {
                                        "entity":  "MITRE",
-                                       "name":  "G0003/G0059"
+                                       "name":  "G0003"
+                                   },
+                                   {
+                                       "entity":  "MITRE",
+                                       "name":  "G0059"
                                    },
                                    {
                                        "entity":  "IBM",
@@ -2179,7 +2451,15 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Thallium/Osmium/Opal Sleet"
+                                       "name":  "Thallium"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Osmium"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Opal Sleet"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -2211,7 +2491,11 @@
                                    },
                                    {
                                        "entity":  "ESRC",
-                                       "name":  "Geumseong121/Venus 121"
+                                       "name":  "Geumseong121"
+                                   },
+                                   {
+                                       "entity":  "ESRC",
+                                       "name":  "Venus 121"
                                    },
                                    {
                                        "entity":  "AhnLab",
@@ -2223,7 +2507,11 @@
                                    },
                                    {
                                        "entity":  "Palo Alto",
-                                       "name":  "Moldy Pisces/Crooked Pisces"
+                                       "name":  "Moldy Pisces"
+                                   },
+                                   {
+                                       "entity":  "Palo Alto",
+                                       "name":  "Crooked Pisces"
                                    },
                                    {
                                        "entity":  "US Gov",
@@ -2239,7 +2527,19 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "APT38/UNC1758/UNC1069/UNC4736"
+                                       "name":  "APT38"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC1758"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC1069"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC4736"
                                    },
                                    {
                                        "entity":  "Proofpoint",
@@ -2255,15 +2555,27 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Copernicium/Sapphire Sleet"
+                                       "name":  "Copernicium"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Sapphire Sleet"
                                    },
                                    {
                                        "entity":  "MITRE",
-                                       "name":  "G0082/G0032"
+                                       "name":  "G0082"
+                                   },
+                                   {
+                                       "entity":  "MITRE",
+                                       "name":  "G0032"
                                    },
                                    {
                                        "entity":  "IBM",
-                                       "name":  "ITG03/Hive0080"
+                                       "name":  "ITG03"
+                                   },
+                                   {
+                                       "entity":  "IBM",
+                                       "name":  "Hive0080"
                                    },
                                    {
                                        "entity":  "Secureworks",
@@ -2367,7 +2679,15 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "Temp.Periscope/Temp.Jumper/APT40"
+                                       "name":  "Temp.Periscope"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "Temp.Jumper"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "APT40"
                                    },
                                    {
                                        "entity":  "Proofpoint",
@@ -2379,7 +2699,11 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Gadolinium/Gingham Typhoon"
+                                       "name":  "Gadolinium"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Gingham Typhoon"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -2435,11 +2759,19 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Barium/Brass Typhoon"
+                                       "name":  "Barium"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Brass Typhoon"
                                    },
                                    {
                                        "entity":  "MITRE",
-                                       "name":  "G0044/G0096"
+                                       "name":  "G0044"
+                                   },
+                                   {
+                                       "entity":  "MITRE",
+                                       "name":  "G0096"
                                    },
                                    {
                                        "entity":  "Secureworks",
@@ -2675,11 +3007,19 @@
                                    },
                                    {
                                        "entity":  "CrowdStrike",
-                                       "name":  "Quilted Tiger/Mirage Tiger"
+                                       "name":  "Quilted Tiger"
+                                   },
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Mirage Tiger"
                                    },
                                    {
                                        "entity":  "MITRE",
-                                       "name":  "G0040/G0089"
+                                       "name":  "G0040"
+                                   },
+                                   {
+                                       "entity":  "MITRE",
+                                       "name":  "G0089"
                                    },
                                    {
                                        "entity":  "IBM",
@@ -2695,7 +3035,11 @@
                                    },
                                    {
                                        "entity":  "PWC",
-                                       "name":  "Orange Dev 1/Orange Athos"
+                                       "name":  "Orange Dev 1"
+                                   },
+                                   {
+                                       "entity":  "PWC",
+                                       "name":  "Orange Athos"
                                    },
                                    {
                                        "entity":  "Thales",
@@ -2711,7 +3055,11 @@
                                    },
                                    {
                                        "entity":  "Palo Alto",
-                                       "name":  "Confucius/Thirsty Gemini"
+                                       "name":  "Confucius"
+                                   },
+                                   {
+                                       "entity":  "Palo Alto",
+                                       "name":  "Thirsty Gemini"
                                    },
                                    {
                                        "entity":  "Cymmetria",
@@ -2787,7 +3135,11 @@
                                    },
                                    {
                                        "entity":  "CrowdStrike",
-                                       "name":  "Circuit Panda/Radio Panda"
+                                       "name":  "Circuit Panda"
+                                   },
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Radio Panda"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -2819,7 +3171,11 @@
                                    },
                                    {
                                        "entity":  "Palo Alto",
-                                       "name":  "BendyBear/Manga Taurus"
+                                       "name":  "BendyBear"
+                                   },
+                                   {
+                                       "entity":  "Palo Alto",
+                                       "name":  "Manga Taurus"
                                    },
                                    {
                                        "entity":  "JPCERT",
@@ -2944,11 +3300,19 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Seaborgium/Star Blizzard"
+                                       "name":  "Seaborgium"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Star Blizzard"
                                    },
                                    {
                                        "entity":  "Secureworks",
-                                       "name":  "Cobalt Edgewater/Iron Frontier"
+                                       "name":  "Cobalt Edgewater"
+                                   },
+                                   {
+                                       "entity":  "Secureworks",
+                                       "name":  "Iron Frontier"
                                    },
                                    {
                                        "entity":  "PWC",
@@ -2964,7 +3328,11 @@
                                    },
                                    {
                                        "entity":  "Google TAG",
-                                       "name":  "TAG-53/Coldriver"
+                                       "name":  "TAG-53"
+                                   },
+                                   {
+                                       "entity":  "Google TAG",
+                                       "name":  "Coldriver"
                                    }
                                ]
                  },
@@ -3072,7 +3440,11 @@
                                    },
                                    {
                                        "entity":  "IBM",
-                                       "name":  "Hive0040/Hive0055"
+                                       "name":  "Hive0040"
+                                   },
+                                   {
+                                       "entity":  "IBM",
+                                       "name":  "Hive0055"
                                    },
                                    {
                                        "entity":  "RiskIQ",
@@ -3156,7 +3528,11 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Zinc/Diamond Sleet"
+                                       "name":  "Zinc"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Diamond Sleet"
                                    },
                                    {
                                        "entity":  "Secureworks",
@@ -3236,11 +3612,19 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Dubnium/Zigzag Hail"
+                                       "name":  "Dubnium"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Zigzag Hail"
                                    },
                                    {
                                        "entity":  "MITRE",
-                                       "name":  "G0012/G0126"
+                                       "name":  "G0012"
+                                   },
+                                   {
+                                       "entity":  "MITRE",
+                                       "name":  "G0126"
                                    },
                                    {
                                        "entity":  "IBM",
@@ -3260,7 +3644,11 @@
                                    },
                                    {
                                        "entity":  "Tencent",
-                                       "name":  "T-APT-02/Higaisa"
+                                       "name":  "T-APT-02"
+                                   },
+                                   {
+                                       "entity":  "Tencent",
+                                       "name":  "Higaisa"
                                    },
                                    {
                                        "entity":  "Qihoo 360",
@@ -3340,7 +3728,11 @@
                                    },
                                    {
                                        "entity":  "Qihoo 360",
-                                       "name":  "APT-C-23/Two-tailed Scorpion"
+                                       "name":  "APT-C-23"
+                                   },
+                                   {
+                                       "entity":  "Qihoo 360",
+                                       "name":  "Two-tailed Scorpion"
                                    }
                                ]
                  },
@@ -3380,7 +3772,11 @@
                                    },
                                    {
                                        "entity":  "PWC",
-                                       "name":  "Orange Berserker/Orange Kala"
+                                       "name":  "Orange Berserker"
+                                   },
+                                   {
+                                       "entity":  "PWC",
+                                       "name":  "Orange Kala"
                                    },
                                    {
                                        "entity":  "Qihoo 360",
@@ -3416,11 +3812,19 @@
                                    },
                                    {
                                        "entity":  "MITRE",
-                                       "name":  "G0017/G0002"
+                                       "name":  "G0017"
+                                   },
+                                   {
+                                       "entity":  "MITRE",
+                                       "name":  "G0002"
                                    },
                                    {
                                        "entity":  "IBM",
-                                       "name":  "Hive0052/Hive0049"
+                                       "name":  "Hive0052"
+                                   },
+                                   {
+                                       "entity":  "IBM",
+                                       "name":  "Hive0049"
                                    },
                                    {
                                        "entity":  "Secureworks",
@@ -3540,11 +3944,19 @@
                                    },
                                    {
                                        "entity":  "CrowdStrike",
-                                       "name":  "Energetic Bear / Berserk Bear"
+                                       "name":  "Energetic Bear "
+                                   },
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  " Berserk Bear"
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Bromine/Ghost Blizzard"
+                                       "name":  "Bromine"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Ghost Blizzard"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -3560,7 +3972,11 @@
                                    },
                                    {
                                        "entity":  "SCWX CTU",
-                                       "name":  "Castle/TG-4192"
+                                       "name":  "Castle"
+                                   },
+                                   {
+                                       "entity":  "SCWX CTU",
+                                       "name":  "TG-4192"
                                    },
                                    {
                                        "entity":  "PWC",
@@ -3736,7 +4152,11 @@
                                    },
                                    {
                                        "entity":  "PWC",
-                                       "name":  "Red Hariasa/Red Dev 17"
+                                       "name":  "Red Hariasa"
+                                   },
+                                   {
+                                       "entity":  "PWC",
+                                       "name":  "Red Dev 17"
                                    }
                                ]
                  },
@@ -3752,7 +4172,11 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Gallium/Granite Typhoon"
+                                       "name":  "Gallium"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Granite Typhoon"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -3760,7 +4184,11 @@
                                    },
                                    {
                                        "entity":  "PWC",
-                                       "name":  "Red Moros/Red Dev 4"
+                                       "name":  "Red Moros"
+                                   },
+                                   {
+                                       "entity":  "PWC",
+                                       "name":  "Red Dev 4"
                                    },
                                    {
                                        "entity":  "Palo Alto",
@@ -3792,7 +4220,11 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "Temp.Armageddon/UNC530"
+                                       "name":  "Temp.Armageddon"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC530"
                                    },
                                    {
                                        "entity":  "Kaspersky",
@@ -3804,7 +4236,15 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0157/Actinum/Aqua Blizzard"
+                                       "name":  "DEV-0157"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Actinum"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Aqua Blizzard"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -3944,7 +4384,11 @@
                                    },
                                    {
                                        "entity":  "Palo Alto",
-                                       "name":  "Pasty Draco/Subaat"
+                                       "name":  "Pasty Draco"
+                                   },
+                                   {
+                                       "entity":  "Palo Alto",
+                                       "name":  "Subaat"
                                    },
                                    {
                                        "entity":  "Recorded Future",
@@ -3976,7 +4420,11 @@
                      "alias":  [
                                    {
                                        "entity":  "CrowdStrike",
-                                       "name":  "ScorchedEpoch/Chrono Kitten"
+                                       "name":  "ScorchedEpoch"
+                                   },
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Chrono Kitten"
                                    },
                                    {
                                        "entity":  "Microsoft",
@@ -4120,7 +4568,11 @@
                                    },
                                    {
                                        "entity":  "Palo Alto",
-                                       "name":  "Infy/Foudre"
+                                       "name":  "Infy"
+                                   },
+                                   {
+                                       "entity":  "Palo Alto",
+                                       "name":  "Foudre"
                                    }
                                ]
                  },
@@ -4160,7 +4612,19 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "UNC1130/UNC3782/UNC4469/APT43"
+                                       "name":  "UNC1130"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC3782"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC4469"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "APT43"
                                    },
                                    {
                                        "entity":  "Proofpoint",
@@ -4176,7 +4640,19 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Thallium/Cerium/Ruby Sleet/Emerald Sleet"
+                                       "name":  "Thallium"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Cerium"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Ruby Sleet"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Emerald Sleet"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -4208,7 +4684,23 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "UNC577/UNC2970/UNC4131/UNC4369/TEMP.Hermit"
+                                       "name":  "UNC577"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC2970"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC4131"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC4369"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "TEMP.Hermit"
                                    },
                                    {
                                        "entity":  "CrowdStrike",
@@ -4216,7 +4708,11 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Plutonium/Onyx Sleet"
+                                       "name":  "Plutonium"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Onyx Sleet"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -4296,7 +4792,11 @@
                                    },
                                    {
                                        "entity":  "MITRE",
-                                       "name":  "G0030/G0076"
+                                       "name":  "G0030"
+                                   },
+                                   {
+                                       "entity":  "MITRE",
+                                       "name":  "G0076"
                                    },
                                    {
                                        "entity":  "Secureworks",
@@ -4312,11 +4812,19 @@
                                    },
                                    {
                                        "entity":  "Thales",
-                                       "name":  "ATK1/ATK78"
+                                       "name":  "ATK1"
+                                   },
+                                   {
+                                       "entity":  "Thales",
+                                       "name":  "ATK78"
                                    },
                                    {
                                        "entity":  "Symantec",
-                                       "name":  "Thrip/Billbug"
+                                       "name":  "Thrip"
+                                   },
+                                   {
+                                       "entity":  "Symantec",
+                                       "name":  "Billbug"
                                    },
                                    {
                                        "entity":  "Palo Alto",
@@ -4396,7 +4904,11 @@
                                    },
                                    {
                                        "entity":  "Kaspersky",
-                                       "name":  "Gaza Cybergang/Gaza Hackers Team"
+                                       "name":  "Gaza Cybergang"
+                                   },
+                                   {
+                                       "entity":  "Kaspersky",
+                                       "name":  "Gaza Hackers Team"
                                    },
                                    {
                                        "entity":  "CrowdStrike",
@@ -4456,7 +4968,11 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "Temp.Zagros/UNC3313"
+                                       "name":  "Temp.Zagros"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC3313"
                                    },
                                    {
                                        "entity":  "Proofpoint",
@@ -4468,7 +4984,11 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Mercury/Mango Sandstorm"
+                                       "name":  "Mercury"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Mango Sandstorm"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -4656,7 +5176,11 @@
                      "alias":  [
                                    {
                                        "entity":  "CrowdStrike",
-                                       "name":  "Tracer Kitten/Volatile Kitten"
+                                       "name":  "Tracer Kitten"
+                                   },
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Volatile Kitten"
                                    },
                                    {
                                        "entity":  "PWC",
@@ -4724,11 +5248,19 @@
                      "alias":  [
                                    {
                                        "entity":  "CrowdStrike",
-                                       "name":  "Aquatic Panda/ControlX"
+                                       "name":  "Aquatic Panda"
+                                   },
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "ControlX"
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Chromium/Charcoal Typhoon"
+                                       "name":  "Chromium"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Charcoal Typhoon"
                                    },
                                    {
                                        "entity":  "IBM",
@@ -4740,11 +5272,19 @@
                                    },
                                    {
                                        "entity":  "PWC",
-                                       "name":  "Red Scylla/Red Dev 10"
+                                       "name":  "Red Scylla"
+                                   },
+                                   {
+                                       "entity":  "PWC",
+                                       "name":  "Red Dev 10"
                                    },
                                    {
                                        "entity":  "Trend Micro",
-                                       "name":  "DRBControl/Earth Lusca"
+                                       "name":  "DRBControl"
+                                   },
+                                   {
+                                       "entity":  "Trend Micro",
+                                       "name":  "Earth Lusca"
                                    },
                                    {
                                        "entity":  "Recorded Future",
@@ -5120,7 +5660,11 @@
                                    },
                                    {
                                        "entity":  "Citizen Lab",
-                                       "name":  "DeepCliff/RedAlpha"
+                                       "name":  "DeepCliff"
+                                   },
+                                   {
+                                       "entity":  "Citizen Lab",
+                                       "name":  "RedAlpha"
                                    }
                                ]
                  },
@@ -5317,11 +5861,27 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "Temp.Noble/UNC3715/UNC3810"
+                                       "name":  "Temp.Noble"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC3715"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC3810"
                                    },
                                    {
                                        "entity":  "Kaspersky",
-                                       "name":  "Hades/OlympicDestroyer/BE2"
+                                       "name":  "Hades"
+                                   },
+                                   {
+                                       "entity":  "Kaspersky",
+                                       "name":  "OlympicDestroyer"
+                                   },
+                                   {
+                                       "entity":  "Kaspersky",
+                                       "name":  "BE2"
                                    },
                                    {
                                        "entity":  "CrowdStrike",
@@ -5329,7 +5889,19 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Iridium/DEV-0665/Seashell Blizzard/Sunglow Blizzard"
+                                       "name":  "Iridium"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0665"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Seashell Blizzard"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Sunglow Blizzard"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -5377,7 +5949,15 @@
                                    },
                                    {
                                        "entity":  "CERT-UA",
-                                       "name":  "UAC-0082/UAC-0113/UAC-0165"
+                                       "name":  "UAC-0082"
+                                   },
+                                   {
+                                       "entity":  "CERT-UA",
+                                       "name":  "UAC-0113"
+                                   },
+                                   {
+                                       "entity":  "CERT-UA",
+                                       "name":  "UAC-0165"
                                    },
                                    {
                                        "entity":  "Google TAG",
@@ -5417,7 +5997,11 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Silicon/Marbled Dust"
+                                       "name":  "Silicon"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Marbled Dust"
                                    },
                                    {
                                        "entity":  "PWC",
@@ -5462,11 +6046,19 @@
                                    },
                                    {
                                        "entity":  "Tencent",
-                                       "name":  "T-APT-04/Rattlesnake "
+                                       "name":  "T-APT-04"
+                                   },
+                                   {
+                                       "entity":  "Tencent",
+                                       "name":  "Rattlesnake "
                                    },
                                    {
                                        "entity":  "Qihoo 360",
-                                       "name":  "APT-C-24/APT-C-17"
+                                       "name":  "APT-C-24"
+                                   },
+                                   {
+                                       "entity":  "Qihoo 360",
+                                       "name":  "APT-C-17"
                                    }
                                ]
                  },
@@ -5851,7 +6443,11 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Krypton/Secret Blizzard"
+                                       "name":  "Krypton"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Secret Blizzard"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -5899,7 +6495,15 @@
                                    },
                                    {
                                        "entity":  "NSA",
-                                       "name":  "SIG2/SIG15/SIG23"
+                                       "name":  "SIG2"
+                                   },
+                                   {
+                                       "entity":  "NSA",
+                                       "name":  "SIG15"
+                                   },
+                                   {
+                                       "entity":  "NSA",
+                                       "name":  "SIG23"
                                    },
                                    {
                                        "entity":  "Google TAG",
@@ -5967,7 +6571,11 @@
                                    },
                                    {
                                        "entity":  "MITRE",
-                                       "name":  "G0107/G0103"
+                                       "name":  "G0107"
+                                   },
+                                   {
+                                       "entity":  "MITRE",
+                                       "name":  "G0103"
                                    },
                                    {
                                        "entity":  "Secureworks",
@@ -6386,7 +6994,11 @@
                      "alias":  [
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Parinacota/Wine Tempest"
+                                       "name":  "Parinacota"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Wine Tempest"
                                    }
                                ]
                  },
@@ -6410,7 +7022,11 @@
                                    },
                                    {
                                        "entity":  "Secureworks",
-                                       "name":  "Gold Southfield/Gold Garden"
+                                       "name":  "Gold Southfield"
+                                   },
+                                   {
+                                       "entity":  "Secureworks",
+                                       "name":  "Gold Garden"
                                    },
                                    {
                                        "entity":  "PWC",
@@ -7523,7 +8139,11 @@
                      "alias":  [
                                    {
                                        "entity":  "Secureworks",
-                                       "name":  "TG-2633/TG-2768"
+                                       "name":  "TG-2633"
+                                   },
+                                   {
+                                       "entity":  "Secureworks",
+                                       "name":  "TG-2768"
                                    },
                                    {
                                        "entity":  "PWC",
@@ -7859,7 +8479,11 @@
                      "alias":  [
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-1084/Storm-1084"
+                                       "name":  "DEV-1084"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Storm-1084"
                                    },
                                    {
                                        "entity":  "Secureworks",
@@ -7931,7 +8555,11 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Spurr/Tomato Tempest"
+                                       "name":  "Spurr"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Tomato Tempest"
                                    },
                                    {
                                        "entity":  "IBM",
@@ -8231,7 +8859,11 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "UNC1756/UNC2727"
+                                       "name":  "UNC1756"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC2727"
                                    },
                                    {
                                        "entity":  "CrowdStrike",
@@ -8243,7 +8875,11 @@
                                    },
                                    {
                                        "entity":  "PWC",
-                                       "name":  "White Onibi/Blue Cronus"
+                                       "name":  "White Onibi"
+                                   },
+                                   {
+                                       "entity":  "PWC",
+                                       "name":  "Blue Cronus"
                                    }
                                ]
                  },
@@ -8399,7 +9035,11 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0537/Strawberry Tempest"
+                                       "name":  "DEV-0537"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Strawberry Tempest"
                                    },
                                    {
                                        "entity":  "Secureworks",
@@ -8443,7 +9083,11 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "UNC2452/UNC2652"
+                                       "name":  "UNC2452"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC2652"
                                    },
                                    {
                                        "entity":  "CrowdStrike",
@@ -8451,7 +9095,11 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Nobelium/Midnight Blizzard"
+                                       "name":  "Nobelium"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Midnight Blizzard"
                                    },
                                    {
                                        "entity":  "IBM",
@@ -8463,7 +9111,15 @@
                                    },
                                    {
                                        "entity":  "PWC",
-                                       "name":  "Blue Dev 5/Blue Nova/White Dev 61"
+                                       "name":  "Blue Dev 5"
+                                   },
+                                   {
+                                       "entity":  "PWC",
+                                       "name":  "Blue Nova"
+                                   },
+                                   {
+                                       "entity":  "PWC",
+                                       "name":  "White Dev 61"
                                    },
                                    {
                                        "entity":  "Thales",
@@ -8471,7 +9127,11 @@
                                    },
                                    {
                                        "entity":  "Palo Alto",
-                                       "name":  "SolarStorm/Solar Phoenix"
+                                       "name":  "SolarStorm"
+                                   },
+                                   {
+                                       "entity":  "Palo Alto",
+                                       "name":  "Solar Phoenix"
                                    },
                                    {
                                        "entity":  "Volexity",
@@ -8597,11 +9257,23 @@
                      "alias":  [
                                    {
                                        "entity":  "Mandiant/FireEye",
-                                       "name":  "UNC2639/UNC2640/UNC2643"
+                                       "name":  "UNC2639"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC2640"
+                                   },
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC2643"
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Hafnium/Silk Typhoon"
+                                       "name":  "Hafnium"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Silk Typhoon"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -8673,7 +9345,15 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0227/Americium/Pink Sandstorm"
+                                       "name":  "DEV-0227"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Americium"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Pink Sandstorm"
                                    },
                                    {
                                        "entity":  "Secureworks",
@@ -8877,7 +9557,11 @@
                                    },
                                    {
                                        "entity":  "PWC",
-                                       "name":  "Yellow Dev 23/Yellow Dev 24"
+                                       "name":  "Yellow Dev 23"
+                                   },
+                                   {
+                                       "entity":  "PWC",
+                                       "name":  "Yellow Dev 24"
                                    },
                                    {
                                        "entity":  "ClearSky",
@@ -8905,7 +9589,11 @@
                      "alias":  [
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0343/Gray Sandstorm"
+                                       "name":  "DEV-0343"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Gray Sandstorm"
                                    }
                                ]
                  },
@@ -8945,7 +9633,11 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Rubidium/Lemon Sandstorm"
+                                       "name":  "Rubidium"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Lemon Sandstorm"
                                    },
                                    {
                                        "entity":  "MITRE",
@@ -8981,7 +9673,11 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0500/Marigold Sandstorm"
+                                       "name":  "DEV-0500"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Marigold Sandstorm"
                                    },
                                    {
                                        "entity":  "Secureworks",
@@ -9193,7 +9889,11 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0413/Coldtrain"
+                                       "name":  "DEV-0413"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Coldtrain"
                                    },
                                    {
                                        "entity":  "Palo Alto",
@@ -9509,7 +10209,11 @@
                      "alias":  [
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0401/Cinnamon Tempest"
+                                       "name":  "DEV-0401"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Cinnamon Tempest"
                                    },
                                    {
                                        "entity":  "Secureworks",
@@ -9533,7 +10237,11 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Curium/Crimson Sandstorm"
+                                       "name":  "Curium"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Crimson Sandstorm"
                                    },
                                    {
                                        "entity":  "IBM",
@@ -9561,7 +10269,11 @@
                      "alias":  [
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0336/Night Tsunami"
+                                       "name":  "DEV-0336"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Night Tsunami"
                                    },
                                    {
                                        "entity":  "PWC",
@@ -9577,7 +10289,11 @@
                      "alias":  [
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Sourgum/Caramel Tsunami"
+                                       "name":  "Sourgum"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Caramel Tsunami"
                                    },
                                    {
                                        "entity":  "PWC",
@@ -9593,7 +10309,11 @@
                      "alias":  [
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0196/Carmine Tsunami"
+                                       "name":  "DEV-0196"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Carmine Tsunami"
                                    }
                                ]
                  },
@@ -9605,7 +10325,11 @@
                      "alias":  [
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0605/Wisteria Tsunami"
+                                       "name":  "DEV-0605"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Wisteria Tsunami"
                                    }
                                ]
                  },
@@ -9617,7 +10341,11 @@
                      "alias":  [
                                    {
                                        "entity":  "PWC",
-                                       "name":  "Red Menshen/Red Dev 18"
+                                       "name":  "Red Menshen"
+                                   },
+                                   {
+                                       "entity":  "PWC",
+                                       "name":  "Red Dev 18"
                                    }
                                ]
                  },
@@ -9629,7 +10357,11 @@
                      "alias":  [
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0146/Pumpkin Sandstorm"
+                                       "name":  "DEV-0146"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Pumpkin Sandstorm"
                                    },
                                    {
                                        "entity":  "PWC",
@@ -9665,7 +10397,15 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Neptunium/Cotton Sandstorm/DEV-0198"
+                                       "name":  "Neptunium"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Cotton Sandstorm"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "DEV-0198"
                                    },
                                    {
                                        "entity":  "PWC",
@@ -10043,7 +10783,15 @@
                      "alias":  [
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0215/Lawrencium/Pearl Sleet"
+                                       "name":  "DEV-0215"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Lawrencium"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Pearl Sleet"
                                    }
                                ]
                  },
@@ -10067,7 +10815,11 @@
                      "alias":  [
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0322/Circle Typhoon"
+                                       "name":  "DEV-0322"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Circle Typhoon"
                                    }
                                ]
                  },
@@ -10091,7 +10843,11 @@
                      "alias":  [
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0504/Velvet Tempest"
+                                       "name":  "DEV-0504"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Velvet Tempest"
                                    }
                                ]
                  },
@@ -10127,7 +10883,11 @@
                      "alias":  [
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0796/Phlox Tempest"
+                                       "name":  "DEV-0796"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Phlox Tempest"
                                    }
                                ]
                  },
@@ -10223,7 +10983,11 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Bohrium/Smoke Sandstorm"
+                                       "name":  "Bohrium"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Smoke Sandstorm"
                                    },
                                    {
                                        "entity":  "PWC",
@@ -10299,7 +11063,11 @@
                      "alias":  [
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0530/Storm-0530"
+                                       "name":  "DEV-0530"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Storm-0530"
                                    }
                                ]
                  },
@@ -10323,7 +11091,11 @@
                      "alias":  [
                                    {
                                        "entity":  "NSFOCUS Fuying Lab",
-                                       "name":  "Actor210426/Murenshark"
+                                       "name":  "Actor210426"
+                                   },
+                                   {
+                                       "entity":  "NSFOCUS Fuying Lab",
+                                       "name":  "Murenshark"
                                    }
                                ]
                  },
@@ -10684,7 +11456,11 @@
                      "alias":  [
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0586/Cadet Blizzard"
+                                       "name":  "DEV-0586"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Cadet Blizzard"
                                    },
                                    {
                                        "entity":  "Palo Alto",
@@ -11005,7 +11781,11 @@
                      "alias":  [
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Polonium/Plaid Rain"
+                                       "name":  "Polonium"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Plaid Rain"
                                    }
                                ]
                  },
@@ -11117,7 +11897,11 @@
                                    },
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0832/Vanilla Tempest"
+                                       "name":  "DEV-0832"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Vanilla Tempest"
                                    },
                                    {
                                        "entity":  "Secureworks",
@@ -11443,7 +12227,11 @@
                      "alias":  [
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "Knotweed/Denim Tsunami"
+                                       "name":  "Knotweed"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Denim Tsunami"
                                    }
                                ]
                  },
@@ -11694,7 +12482,11 @@
                      "alias":  [
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0234/Lilac Typhoon"
+                                       "name":  "DEV-0234"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Lilac Typhoon"
                                    }
                                ]
                  },
@@ -11730,7 +12522,11 @@
                      "alias":  [
                                    {
                                        "entity":  "Microsoft",
-                                       "name":  "DEV-0228/Cuboid Sandstorm"
+                                       "name":  "DEV-0228"
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Cuboid Sandstorm"
                                    }
                                ]
                  },
