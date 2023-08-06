@@ -5,7 +5,7 @@
                    "BushidoToken",
                    "Faisalusuf"
                ],
-    "version":  "1.1",
+    "version":  "1.2",
     "data":  [
                  {
                      "official_name":  "FIN1",
@@ -2623,6 +2623,10 @@
                                    },
                                    {
                                        "entity":  "Recorded Future",
+                                       "name":  "TAG-71"
+                                   },
+                                   {
+                                       "entity":  "Recorded Future",
                                        "name":  "Lazarus Group"
                                    },
                                    {
@@ -2792,6 +2796,10 @@
                                    {
                                        "entity":  "Trend Micro",
                                        "name":  "Earth Baku"
+                                   },
+                                   {
+                                       "entity":  "Recorded Future",
+                                       "name":  "TAG-28"
                                    },
                                    {
                                        "entity":  "Elastic",
@@ -3323,12 +3331,16 @@
                                        "name":  "Callisto Group"
                                    },
                                    {
-                                       "entity":  "Lastline",
-                                       "name":  "Cold River"
+                                       "entity":  "Recorded Future",
+                                       "name":  "TAG-53"
                                    },
                                    {
-                                       "entity":  "Google TAG",
-                                       "name":  "TAG-53"
+                                       "entity":  "Recorded Future",
+                                       "name":  "BlueCharlie"
+                                   },
+                                   {
+                                       "entity":  "Lastline",
+                                       "name":  "Cold River"
                                    },
                                    {
                                        "entity":  "Google TAG",
@@ -5288,7 +5300,7 @@
                                    },
                                    {
                                        "entity":  "Recorded Future",
-                                       "name":  "Tag-22"
+                                       "name":  "TAG-22"
                                    }
                                ]
                  },
@@ -5702,7 +5714,10 @@
                      "type":  "APT",
                      "country":  "China",
                      "alias":  [
-
+                                   {
+                                       "entity":  "Recorded Future",
+                                       "name":  "TAG-38"
+                                   }
                                ]
                  },
                  {
@@ -10748,6 +10763,18 @@
                                    {
                                        "entity":  "Mandiant/FireEye",
                                        "name":  "UNC3711"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "UNC4841",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "China",
+                     "alias":  [
+                                   {
+                                       "entity":  "Mandiant/FireEye",
+                                       "name":  "UNC4841"
                                    }
                                ]
                  },
