@@ -43,6 +43,7 @@
             <td>Crowdstrike</td>
             <td><ul>
               <li><a href="https://adversary.crowdstrike.com/en-US/">Threat Actors profiles</a></li>
+              <li><a href="https://www.crowdstrike.com/adversaries/">Threat Actors profiles + short description</a></li>
             <ul></td>
        </tr>
        <tr>
@@ -71,6 +72,11 @@
               <li><a href="https://cyberthreat.thalesgroup.com/attackers">Threat Actors profiles</a></li>
             <ul></td>
        </tr>
+            <td>Venafi</td>
+            <td><ul>
+              <li><a href="https://threatmodel.venafi.com/groups/">Threat Actors profiles</a></li>
+            <ul></td>
+       </tr>    
         <tr>
             <td>APTMAP</td>
             <td><ul>
