@@ -459,7 +459,7 @@
                                    },
                                    {
                                        "entity":  "Symantec",
-                                       "name":  " Lucky Cat"
+                                       "name":  " Luckycat"
                                    }
                                ]
                  },
@@ -1982,6 +1982,10 @@
                                        "name":  "ATK7"
                                    },
                                    {
+                                       "entity":  "Symantec",
+                                       "name":  "Fritillary"
+                                   },
+                                   {
                                        "entity":  "Qihoo 360",
                                        "name":  "APT-C-42"
                                    },
@@ -2856,6 +2860,10 @@
                                    {
                                        "entity":  "Secureworks",
                                        "name":  "Bronze Medley"
+                                   },
+                                   {
+                                       "entity":  "Symantec",
+                                       "name":  "Snail"
                                    },
                                    {
                                        "entity":  "PTSecurity",
@@ -4683,6 +4691,10 @@
                                        "name":  "Black Banshee"
                                    },
                                    {
+                                       "entity":  "Symantec",
+                                       "name":  "Springtail"
+                                   },
+                                   {
                                        "entity":  "Qihoo 360",
                                        "name":  "APT-C-55"
                                    }
@@ -4957,6 +4969,18 @@
                                    {
                                        "entity":  "Qihoo 360",
                                        "name":  "APT-C-47"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Wirelurker",
+                     "confidence":  "High",
+                     "type":  "Organized Crime",
+                     "country":  "China",
+                     "alias":  [
+                                   {
+                                       "entity":  "Palo Alto",
+                                       "name":  "Wirelurker"
                                    }
                                ]
                  },
@@ -6559,6 +6583,10 @@
                                    {
                                        "entity":  "Checkpoint",
                                        "name":  "Volatile Cedar"
+                                   },
+                                   {
+                                       "entity":  "ClearSky",
+                                       "name":  "Lebanese Cedar"
                                    }
                                ]
                  },
@@ -6747,6 +6775,22 @@
                                ]
                  },
                  {
+                     "official_name":  "The Tetrade",
+                     "confidence":  "High",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "Kaspersky",
+                                       "name":  "The Tetrade"
+                                   },
+                                   {
+                                       "entity":  "Thales",
+                                       "name":  "ATK237"
+                                   }
+                               ]
+                 },
+                 {
                      "official_name":  "MosaicRegressor",
                      "confidence":  "High",
                      "type":  "APT",
@@ -6891,6 +6935,18 @@
                                    {
                                        "entity":  "Recorded Future",
                                        "name":  "TAG-CR17"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "EvilNominatus",
+                     "confidence":  "High",
+                     "type":  "Script Kiddies",
+                     "country":  "Iran",
+                     "alias":  [
+                                   {
+                                       "entity":  "ClearSky",
+                                       "name":  "EvilNominatus"
                                    }
                                ]
                  },
@@ -8559,6 +8615,18 @@
                                ]
                  },
                  {
+                     "official_name":  "Gold Barondale",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "China",
+                     "alias":  [
+                                   {
+                                       "entity":  "Secureworks",
+                                       "name":  "Gold Barondale"
+                                   }
+                               ]
+                 },
+                 {
                      "official_name":  "Gold Dupont",
                      "confidence":  "High",
                      "type":  "Organized Crime",
@@ -9938,7 +10006,7 @@
                  },
                  {
                      "official_name":  "Dangerous Password",
-                     "confidence":  "Mid",
+                     "confidence":  "High",
                      "type":  "APT",
                      "country":  "North Korea",
                      "alias":  [
@@ -10488,7 +10556,7 @@
                      "official_name":  "ReconHellcat",
                      "confidence":  "Mid",
                      "type":  "APT",
-                     "country":  "Unknown",
+                     "country":  "Russia",
                      "alias":  [
                                    {
                                        "entity":  "PWC",
@@ -10498,7 +10566,7 @@
                  },
                  {
                      "official_name":  "White Dev 89",
-                     "confidence":  "Low",
+                     "confidence":  "Mid",
                      "type":  "APT",
                      "country":  "Unknown",
                      "alias":  [
@@ -10521,6 +10589,18 @@
                                    {
                                        "entity":  "Dragos",
                                        "name":  "Stibnite"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "White Dev 75",
+                     "confidence":  "Mid",
+                     "type":  "Unknown",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "PWC",
+                                       "name":  "White Dev 75"
                                    }
                                ]
                  },
@@ -11789,6 +11869,22 @@
                                ]
                  },
                  {
+                     "official_name":  "Gold Sahara",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Punk Spider"
+                                   },
+                                   {
+                                       "entity":  "Secureworks",
+                                       "name":  "Gold Sahara"
+                                   }
+                               ]
+                 },
+                 {
                      "official_name":  "Bronze Spiral",
                      "confidence":  "Mid",
                      "type":  "APT",
@@ -12112,6 +12208,34 @@
                                    {
                                        "entity":  "CrowdStrike",
                                        "name":  "Solar Spider"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "FamousSparrow",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "China",
+                     "alias":  [
+                                   {
+                                       "entity":  "Trend Micro",
+                                       "name":  "Earth Estries"
+                                   },
+                                   {
+                                       "entity":  "ESET",
+                                       "name":  "FamousSparrow"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "GhostEmperor",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "China",
+                     "alias":  [
+                                   {
+                                       "entity":  "Kaspersky",
+                                       "name":  "GhostEmperor"
                                    }
                                ]
                  },
@@ -12896,6 +13020,154 @@
                                    {
                                        "entity":  "ESET",
                                        "name":  "MoustachedBouncer"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "APT-K-47",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "Pakistan",
+                     "alias":  [
+                                   {
+                                       "entity":  "Kaspersky",
+                                       "name":  "Mysterious Elephant"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Carderbee",
+                     "confidence":  "Low",
+                     "type":  "APT",
+                     "country":  "China",
+                     "alias":  [
+                                   {
+                                       "entity":  "Symantec",
+                                       "name":  "Carderbee"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Flax Typhoon",
+                     "confidence":  "Mid",
+                     "type":  "APT",
+                     "country":  "China",
+                     "alias":  [
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Ethereal Panda "
+                                   },
+                                   {
+                                       "entity":  "Microsoft",
+                                       "name":  "Flax Typhoon"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Punk Spider",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Punk Spider"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Merchant Spider",
+                     "confidence":  "Low",
+                     "type":  "Organized Crime",
+                     "country":  "Unknown",
+                     "alias":  [
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Merchant Spider"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Tunnel Spider",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Tunnel Spider"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Masked Spider",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Masked Spider"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Hazard Spider",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Hazard Spider"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Honey Spider",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Honey Spider"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Chaotic Spider",
+                     "confidence":  "Mid",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Chaotic Spider"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Malteiro",
+                     "confidence":  "High",
+                     "type":  "Organized Crime",
+                     "country":  "Worldwide",
+                     "alias":  [
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Samba Spider"
+                                   }
+                               ]
+                 },
+                 {
+                     "official_name":  "Pulsar Kitten",
+                     "confidence":  "Low",
+                     "type":  "APT",
+                     "country":  "Iran",
+                     "alias":  [
+                                   {
+                                       "entity":  "CrowdStrike",
+                                       "name":  "Pulsar Kitten"
                                    }
                                ]
                  }
